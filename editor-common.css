@@ -2,7 +2,7 @@
 /* 見出し
 ---------------------------------------------------------------------------------------------------*/
 
-.editor-styles-wrapper h2:not(.swell-block-accordion__icon) {
+.editor-styles-wrapper h2:not(.swell-block-accordion__label) {
 	margin-bottom: 2.5em !important;
 }
 
