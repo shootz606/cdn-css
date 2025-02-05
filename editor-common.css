@@ -41,7 +41,7 @@
 }
 .editor-styles-wrapper .is-style-heading-count.is-style-heading-count::after {
 	position: absolute;
-	top: -1.5em;
+	top: -1em;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
