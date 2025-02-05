@@ -275,6 +275,35 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 
+/* アコーディオン
+---------------------------------------------------------------------------------------------------*/
+
+/* アコーディオンの連番 */
+.sequential-numbering {
+	counter-reset: accordion-counter;
+}
+.swell-block-accordion.sequential-numbering .swell-block-accordion__item .swell-block-accordion__label {
+	position: relative;
+	padding-left: 30px;
+	line-height: 160%;
+}
+.swell-block-accordion.sequential-numbering .swell-block-accordion__item .swell-block-accordion__label::before {
+	content: counter(accordion-counter) ". ";
+	counter-increment: accordion-counter;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #a58da5;
+	font-size: 16px;
+	font-weight: bold;
+}
+@media print, screen and (max-width: 599px) {
+	.swell-block-accordion.sequential-numbering .swell-block-accordion__item .swell-block-accordion__label::before {
+		top: -1px;
+	}
+}
+
+
 /* 説明リスト（DL）
 ---------------------------------------------------------------------------------------------------*/
 
@@ -283,9 +312,6 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 /* 説明リストの連番 */
-.sequential-numbering {
-	counter-reset: accordion-counter;
-}
 .swell-block-dl.sequential-numbering .swell-block-dl__dt {
 	position: relative;
 	padding-left: 30px;
