@@ -64,3 +64,44 @@
 	counter-reset: section;
 }
 
+
+/* カウント4 */
+.post_content .is-style-heading-sequence.is-style-heading-sequence{
+	margin: 5em 0 3em;
+	padding: 0 0 0 70px;
+	background: none;
+	border: 0;
+	font-size: 18px;
+}
+@media print, screen and (max-width: 599px) {
+	.post_content .is-style-heading-sequence.is-style-heading-sequence{
+		padding: 0 0 5px 80px;
+	}
+}
+.post_content .is-style-heading-sequence.is-style-heading-sequence::before {
+	position: absolute;
+	top: 48%;
+	bottom: auto;
+	left: 0;
+	width: auto;
+	height: auto;
+	transform: translateY(-50%);
+	background: none;
+	color: rgba(63,193,201,0.3);
+	font-size: 50px;
+	font-family: 'Josefin Sans',sans-serif;
+	counter-increment: sequence;
+	content: counter(sequence, decimal-leading-zero);
+}
+.post_content .is-style-heading-sequence.is-style-heading-sequence::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100px;
+	height: 1px;
+	background-color: rgba(63,193,201,1);
+	content: '';
+}
+.heading-sequence-reset{
+	counter-reset: sequence;
+}
