@@ -256,3 +256,41 @@ h4.is-style-heading-count.is-style-heading-count {
 .post_content li ol, .post_content li ul{
 	margin-top: 0.75em;
 }
+
+
+/* 画像
+---------------------------------------------------------------------------------------------------*/
+
+/* ワイド化 */
+@media print, screen and (max-width: 599px) {
+	.is-style-eyecatch-width{
+		width: 100vw;
+		margin-left: calc(-50vw + 50%);
+	}
+}
+@media only screen and (min-width: 600px) {
+	.is-style-eyecatch-width img{
+	 border-radius: 4px;
+	}
+}
+
+
+
+/* 10選
+---------------------------------------------------------------------------------------------------*/
+
+/* コンテンツ */
+.wp-block-group.area .content p,
+.wp-block-group.area .swell-block-accordion__body p{
+	font-size: 94%;
+}
+@media print, screen and (max-width: 599px) {
+	.wp-block-group.area .content p,
+	.wp-block-group.area .swell-block-accordion__body p{
+		font-size: 90%;
+	}
+}
+.wp-block-group.area .content p::last-child,
+.wp-block-group.area .swell-block-accordion__body p::last-child {
+	margin-bottom: 0;
+}
