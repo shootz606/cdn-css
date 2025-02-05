@@ -22,7 +22,7 @@
 	color: #333;
 	font-size: 22px;
 }
-.editor-styles-wrapper .is-style-heading-count.is-style-heading-count:before {
+.editor-styles-wrapper .is-style-heading-count.is-style-heading-count::before {
 	content: counter(countcnt, decimal-leading-zero);
 	position: absolute;
 	display: flex;
@@ -39,7 +39,7 @@
 	color: #3e3e3e;
 	line-height: 1;
 }
-.editor-styles-wrapper .is-style-heading-count.is-style-heading-count:after {
+.editor-styles-wrapper .is-style-heading-count.is-style-heading-count::after {
 	position: absolute;
 	top: -2em;
 	left: 0;
@@ -49,9 +49,9 @@
 	border-top: solid 1px #333;
 	content: '';
 }
-.editor-styles-wrapper .area .is-style-heading-count.is-style-heading-count:after {
+.editor-styles-wrapper .area .is-style-heading-count.is-style-heading-count::after {
 	top: auto;
-	bottom: 0;
+	bottom: 1em;
 	width: 100%;
 	height: calc(100%);
 	border-top: none;
@@ -60,13 +60,13 @@
 .heading-count-reset {
 	counter-reset: countcnt;
 }
-.is-style-num_circle + .is-style-heading-count{
+.is-style-num_circle + .is-style-heading-count {
 	margin-top: 4em!important;
 }
-.is-style-num_circle + .is-style-heading-count:after{
+.is-style-num_circle + .is-style-heading-count::after {
 	border-top: 0;
 }
-.is-style-heading-count + .wp-block-image{
+.is-style-heading-count + .wp-block-image {
 	margin-top: -1em!important;
 }
 
