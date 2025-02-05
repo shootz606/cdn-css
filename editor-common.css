@@ -1,4 +1,14 @@
 
+/* グループ
+---------------------------------------------------------------------------------------------------*/
+
+/* ボーダー設定 */
+.editor-styles-wrapper .wp-block-group.has-border ul{
+	margin-top: 0;
+	margin-bottom: 0;	
+}
+
+
 /* 見出し
 ---------------------------------------------------------------------------------------------------*/
 
@@ -217,7 +227,7 @@ ul.has-border.-border04{
 	counter-increment: accordion-counter;
 	position: absolute;
 	left: 0;
-	top: 0;
+	top: 2px;
 	font-family: 'Josefin Sans',sans-serif;
 	font-size: 16px;
 	font-weight: bold;
