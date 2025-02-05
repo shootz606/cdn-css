@@ -48,3 +48,41 @@
 	counter-reset: section;
 }
 
+
+/* カウント4 */
+.editor-styles-wrapper .wp-block.is-style-heading-sequence.is-style-heading-sequence {
+	margin-top: 5em;
+	margin-bottom: 3em;
+	padding: 0 0 0 70px;
+	background: none;
+	border: 0;
+	font-size: 20px;
+}
+.editor-styles-wrapper .wp-block.is-style-heading-sequence.is-style-heading-sequence::before {
+	position: absolute;
+	top: 50%;
+	bottom: auto;
+	left: 0;
+	width: auto;
+	height: auto;
+	transform: translateY(-50%);
+	background: none;
+	color: rgba(63,193,201,0.3);
+	font-size: 50px;
+	font-family: 'Josefin Sans',sans-serif;
+	counter-increment: sequence;
+	content: counter(sequence, decimal-leading-zero);
+}
+.editor-styles-wrapper .wp-block.is-style-heading-sequence.is-style-heading-sequence::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100px;
+	height: 1px;
+	background-color: rgba(63,193,201,1);
+	content: '';
+}
+.editor-styles-wrapper .heading-sequence-reset{
+	counter-reset: sequence;
+}
+
