@@ -275,6 +275,39 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 
+/* 説明リスト（DL）
+---------------------------------------------------------------------------------------------------*/
+
+.swell-block-dl__dd > ul.wp-block-list {
+	margin-top: 0;
+}
+
+/* 説明リストの連番 */
+.sequential-numbering {
+	counter-reset: accordion-counter;
+}
+.swell-block-dl.sequential-numbering .swell-block-dl__dt {
+	position: relative;
+	padding-left: 30px;
+	line-height: 160%;
+}
+.swell-block-dl.sequential-numbering .swell-block-dl__dt::before {
+	content: counter(accordion-counter) ". ";
+	counter-increment: accordion-counter;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #94a19d;
+	font-size: 16px;
+	font-weight: bold;
+}
+@media print, screen and (max-width: 599px) {
+	.swell-block-dl.sequential-numbering .swell-block-dl__dt::before {
+		top: -0.5px;
+	}
+}
+
+
 
 /* 10選
 ---------------------------------------------------------------------------------------------------*/
