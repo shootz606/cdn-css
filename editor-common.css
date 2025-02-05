@@ -210,6 +210,45 @@ ul.has-border.-border04{
 .orange.is-style-num_circle li:before{ background-color: #f5955b; box-shadow: 0 0 0 1px #f5955b; }
 
 
+.w-comment,.m-comment{
+	padding: 0!important;
+}
+.w-comment li,.m-comment li{
+	position: relative;
+	list-style: none;
+	padding: 0.7em 1em 0.7em 70px;
+	border-radius: 4px;
+	font-size: 90%;
+}
+.w-comment li{ background: #fce4ec; }
+.m-comment li{ background: #e3f2fd; }
+.w-comment li:before,.m-comment li:before{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 50px;
+	font-family: "Font Awesome 6 Free";
+	font-size: 1.3em;
+	font-weight: 900;
+	text-align: center;
+	content: "\f086";
+}
+.w-comment li:before{ color: #f48fb1; }
+.m-comment li:before{ color: #42a5f5; }
+.w-comment li:after,.m-comment li:after{
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	transform: translateY(-50%);
+	width: 1px;
+	height: 70%;
+	content: '';
+}
+.w-comment li:after{ border-right: solid 1px #f48fb1; }
+.m-comment li:after{ border-right: solid 1px #42a5f5; }
+
+
 /* 画像
 ---------------------------------------------------------------------------------------------------*/
 

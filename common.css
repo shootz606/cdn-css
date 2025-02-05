@@ -262,6 +262,47 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 
+/* コメント */
+.w-comment,.m-comment{
+	margin: 2.5em 0;
+	padding: 0!important;
+}
+.w-comment li,.m-comment li{
+	position: relative;
+	list-style: none;
+	padding: 0.7em 1em 0.7em 70px;
+	border-radius: 4px;
+	font-size: 90%;
+}
+.w-comment li{ background: #fce4ec; }
+.m-comment li{ background: #e3f2fd; }
+.w-comment li:before,.m-comment li:before{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 50px;
+	font-family: "Font Awesome 6 Free";
+	font-size: 1.3em;
+	font-weight: 900;
+	text-align: center;
+	content: "\f086";
+}
+.w-comment li:before{ color: #f48fb1; }
+.m-comment li:before{ color: #42a5f5; }
+.w-comment li:after,.m-comment li:after{
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	transform: translateY(-50%);
+	width: 1px;
+	height: 70%;
+	content: '';
+}
+.w-comment li:after{ border-right: solid 1px #f48fb1; }
+.m-comment li:after{ border-right: solid 1px #42a5f5; }
+
+
 /* 画像
 ---------------------------------------------------------------------------------------------------*/
 
@@ -308,6 +349,23 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 
+/* キャプションボックス
+---------------------------------------------------------------------------------------------------*/
+
+.swell-block-capbox {
+	margin-bottom: 3em;
+}
+.swell-block-capbox .cap_box_content p {
+	font-size: 94%;
+}
+@media print, screen and (max-width: 599px) {
+	.swell-block-capbox .cap_box_content p {
+		font-size: 90%;
+	}
+}
+
+
+
 /* 説明リスト（DL）
 ---------------------------------------------------------------------------------------------------*/
 
@@ -326,15 +384,18 @@ h4.is-style-heading-count.is-style-heading-count {
 	counter-increment: accordion-counter;
 	position: absolute;
 	left: 0;
-	top: 0;
+	top: 2px;
 	font-family: 'Josefin Sans',sans-serif;
 	font-size: 17px;
 	font-weight: bold;
 }
 @media print, screen and (max-width: 599px) {
 	.swell-block-dl.sequential-numbering .swell-block-dl__dt::before {
-		top: -0.5px;
+		top: 3px;
 	}
+}
+.swell-block-dl.green.sequential-numbering .swell-block-dl__dt::before {
+	color: #447c46;
 }
 
 
