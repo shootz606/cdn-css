@@ -5,3 +5,46 @@
 .editor-styles-wrapper h2 {
 	margin-bottom: 2.5em !important;
 }
+
+/* セクション用 */
+.editor-styles-wrapper .is-style-section_ttl.is-style-section_ttl{
+	margin-top: 5em;
+	margin-bottom: 3em;
+}
+
+
+/* カウント3 */
+.editor-styles-wrapper .wp-block.is-style-heading-step.is-style-heading-step {
+	margin-top: 5em;
+	margin-bottom: 3em;
+	padding: 0;
+	border: 0;
+	font-size: 22px;
+	text-align: center;
+}
+.editor-styles-wrapper .wp-block.is-style-heading-step.is-style-heading-step::before {
+	position: static;
+	width: auto;
+	height: auto;
+	margin-bottom: 30px;
+	background: none;
+	color: #fc5185;
+	font-size: 40px;
+	font-family: 'Josefin Sans',sans-serif;
+	counter-increment: section;
+	content: counter(section, decimal-leading-zero);
+}
+.editor-styles-wrapper .wp-block.is-style-heading-step.is-style-heading-step::after {
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 20px;
+	height: 1px;
+	background-color: #fc5185;
+	content: '';
+}
+.editor-styles-wrapper .heading-step-reset{
+	counter-reset: section;
+}
+
