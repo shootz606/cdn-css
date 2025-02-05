@@ -212,3 +212,19 @@ h4.is-style-heading-count.is-style-heading-count {
 		font-size: 90%;
 	}
 }
+
+.post_content li:not(.p-toc__list li):not(.p-toc__childList li) {
+	margin-bottom: 0.75em;
+}
+.post_content li:not(.p-toc__list li):not(.p-toc__childList li):last-child {
+	margin-bottom: 0.25em;
+}
+.post_content li:last-child{
+	margin-bottom: 0.25em;
+}
+.swell-block-fullWide li:last-child{
+	margin-bottom: 0.25em!important;
+}
+.post_content li ol, .post_content li ul{
+	margin-top: 0.75em;
+}
