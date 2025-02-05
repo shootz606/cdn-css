@@ -24,14 +24,68 @@
 
 
 /* セクション用 */
-.post_content .is-style-section_ttl.is-style-section_ttl{
+.post_content .is-style-section_ttl.is-style-section_ttl {
 	margin-top: 5em;
 	margin-bottom: 3em;
 }
 
 
+/* カウント1 */
+h2.is-style-heading-count.is-style-heading-count {
+	width: 100%;
+	margin-left: 0;
+}
+h4.is-style-heading-count.is-style-heading-count{
+	border-left: 0;
+}
+.post_content .is-style-heading-count.is-style-heading-count{
+	counter-increment: countcnt;
+	margin-top: 7em;
+	padding: 0 0 0 7rem;
+	background-color: transparent;
+	color: #333;
+	font-size: 22px;
+}
+.post_content .is-style-heading-count.is-style-heading-count::before {
+	content: counter(countcnt, decimal-leading-zero);
+	position: absolute;
+	display: flex;
+	align-items: center;
+	top: 50%;
+	left: 0;
+	transform: translateY(-35%);
+	height: 100%;
+	background: none;
+	border: 0;
+	font-size: 3em;
+	font-family: 'Josefin Sans',sans-serif;
+	font-weight: bold;
+	color: #3e3e3e;
+	line-height: 1;
+}
+@media print, screen and (max-width: 599px) {
+	.post_content .is-style-heading-count.is-style-heading-count::before {
+		transform: translateY(-40%) scale(1, 1.1);
+		font-size: 2.6em;
+	}
+}
+.post_content .is-style-heading-count.is-style-heading-count:after{
+	position: absolute;
+	top: -2em;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 40%;
+	border-top: solid 1px #333;
+	content: '';
+}
+.heading-count-reset{
+	counter-reset: countcnt;
+}
+
+
 /* カウント3 */
-.post_content .is-style-heading-step.is-style-heading-step{
+.post_content .is-style-heading-step.is-style-heading-step {
 	margin: 5em 0 3em;
 	padding: 0;
 	border: 0;
@@ -66,7 +120,7 @@
 
 
 /* カウント4 */
-.post_content .is-style-heading-sequence.is-style-heading-sequence{
+.post_content .is-style-heading-sequence.is-style-heading-sequence {
 	margin: 5em 0 3em;
 	padding: 0 0 0 70px;
 	background: none;
@@ -74,7 +128,7 @@
 	font-size: 18px;
 }
 @media print, screen and (max-width: 599px) {
-	.post_content .is-style-heading-sequence.is-style-heading-sequence{
+	.post_content .is-style-heading-sequence.is-style-heading-sequence {
 		padding: 0 0 5px 80px;
 	}
 }
