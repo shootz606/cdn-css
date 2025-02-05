@@ -51,7 +51,7 @@
 }
 .editor-styles-wrapper .area .is-style-heading-count.is-style-heading-count::after {
 	top: auto;
-	bottom: 1em;
+	bottom: 3em;
 	width: 100%;
 	height: calc(100%);
 	border-top: none;
