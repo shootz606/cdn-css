@@ -200,13 +200,33 @@ ul.has-border.-border04{
 .orange.is-style-num_circle li:before{ background-color: #f5955b; box-shadow: 0 0 0 1px #f5955b; }
 
 
+/* アコーディオン
+---------------------------------------------------------------------------------------------------*/
+
+/* アコーディオンの連番 */
+.editor-styles-wrapper .sequential-numbering {
+	counter-reset: accordion-counter;
+}
+.editor-styles-wrapper .swell-block-accordion.sequential-numbering .swell-block-accordion__item .swell-block-accordion__label {
+	position: relative;
+	padding-left: 30px;
+	line-height: 160%;
+}
+.editor-styles-wrapper .swell-block-accordion.sequential-numbering .swell-block-accordion__item .swell-block-accordion__label::before {
+	content: counter(accordion-counter) ". ";
+	counter-increment: accordion-counter;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
 /* 説明リスト（DL）
 ---------------------------------------------------------------------------------------------------*/
 
 /* 説明リストの連番 */
-.editor-styles-wrapper .sequential-numbering {
-	counter-reset: accordion-counter;
-}
 .editor-styles-wrapper .swell-block-dl.sequential-numbering .swell-block-dl__dt {
 	position: relative;
 	padding-left: 30px;
