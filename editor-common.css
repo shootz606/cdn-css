@@ -218,6 +218,7 @@ ul.has-border.-border04{
 	position: absolute;
 	left: 0;
 	top: 0;
+	font-family: 'Josefin Sans',sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 }
@@ -238,7 +239,7 @@ ul.has-border.-border04{
 	position: absolute;
 	left: 0;
 	top: 0;
-	color: #94a19d;
+	font-family: 'Josefin Sans',sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 }
