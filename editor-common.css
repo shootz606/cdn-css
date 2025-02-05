@@ -2,6 +2,6 @@
 /* 見出し
 ---------------------------------------------------------------------------------------------------*/
 
-.editor-styles-wrapper h2, :where(.editor-styles-wrapper) .mce-content-body h2 {
-	margin-bottom: 2.5em!improtant;
+.editor-styles-wrapper h2 {
+	margin-bottom: 2.5em !important;
 }
