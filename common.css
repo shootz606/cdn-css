@@ -202,6 +202,26 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 
+/* P
+---------------------------------------------------------------------------------------------------*/
+
+@media print, screen and (max-width: 599px) {
+	.post_content p {
+		font-size: 94%;
+	}
+}
+
+/* マーカー */
+.swl-marker {
+	font-weight: bold;
+}
+
+/* 太字 */
+.huto, .has-swl-deep-01-color, .has-black-color {
+	font-weight: bold;
+}
+
+
 /* OL/UL
 ---------------------------------------------------------------------------------------------------*/
 
