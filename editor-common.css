@@ -86,3 +86,28 @@
 	counter-reset: sequence;
 }
 
+
+/* 横線 */
+.editor-styles-wrapper .is-style-heading-hr.is-style-heading-hr {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	border: none;
+	text-align: center;
+}
+.editor-styles-wrapper .is-style-heading-hr.is-style-heading-hr::before,
+.editor-styles-wrapper .is-style-heading-hr.is-style-heading-hr::after {
+	content: '';
+	width: 70px;
+	height: 1px;
+	background-color: #333;
+}
+.editor-styles-wrapper .is-style-heading-hr.is-style-heading-hr::before {
+	margin-right: 20px;
+}
+.editor-styles-wrapper .is-style-heading-hr.is-style-heading-hr::after {
+	margin-left: 20px;
+}
+
+
