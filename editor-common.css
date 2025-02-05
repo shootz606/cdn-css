@@ -198,3 +198,27 @@ ul.has-border.-border04{
 .red.is-style-num_circle li:before{ background-color: #f25757; box-shadow: 0 0 0 1px #f25757; }
 .pink.is-style-num_circle li:before{ background-color: #f7b2b2; box-shadow: 0 0 0 1px #f7b2b2; }
 .orange.is-style-num_circle li:before{ background-color: #f5955b; box-shadow: 0 0 0 1px #f5955b; }
+
+
+/* 説明リスト（DL）
+---------------------------------------------------------------------------------------------------*/
+
+/* 説明リストの連番 */
+.editor-styles-wrapper .sequential-numbering {
+	counter-reset: accordion-counter;
+}
+.editor-styles-wrapper .swell-block-dl.sequential-numbering .swell-block-dl__dt {
+	position: relative;
+	padding-left: 30px;
+	line-height: 160%;
+}
+.editor-styles-wrapper .swell-block-dl.sequential-numbering .swell-block-dl__dt::before {
+	content: counter(accordion-counter) ". ";
+	counter-increment: accordion-counter;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #94a19d;
+	font-size: 16px;
+	font-weight: bold;
+}
