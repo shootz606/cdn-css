@@ -5,3 +5,25 @@
 .post_content h2 {
 	margin-bottom: 2.5em;
 }
+@media print, screen and (max-width: 599px) {
+	.post_content h2{
+		width: 100vw;
+		margin-left: calc(-50vw + 50%);
+	}
+}
+
+.post_content h4{
+	margin-top: 4em;
+	margin-bottom: 3em;
+}
+
+.post_content h5{
+	margin-top: 4em;
+	margin-bottom: 3em;
+}
+
+/* セクション用 */
+.post_content .is-style-section_ttl.is-style-section_ttl{
+	margin-top: 5em;
+	margin-bottom: 3em;
+}
