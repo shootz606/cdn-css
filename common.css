@@ -194,3 +194,21 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 
+/* OL/UL
+---------------------------------------------------------------------------------------------------*/
+
+.post_content ol, .post_content ul {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.post_content .swell-block-dl ol, .post_content .swell-block-dl ul {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+@media print, screen and (max-width: 599px) {
+	.post_content ol li,
+	.post_content ul li{
+		font-size: 90%;
+	}
+}
