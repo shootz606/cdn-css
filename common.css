@@ -292,14 +292,14 @@ h4.is-style-heading-count.is-style-heading-count {
 	counter-increment: accordion-counter;
 	position: absolute;
 	left: 0;
-	top: 1px;
+	top: 2px;
 	font-family: 'Josefin Sans',sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 }
 @media print, screen and (max-width: 599px) {
 	.swell-block-accordion.sequential-numbering .swell-block-accordion__item .swell-block-accordion__label::before {
-		top: 2px;
+		top: 3px;
 	}
 }
 
