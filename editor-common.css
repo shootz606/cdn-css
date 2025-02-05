@@ -16,10 +16,10 @@
 /* カウント1 */
 .editor-styles-wrapper .is-style-heading-count.is-style-heading-count {
 	counter-increment: countcnt;
-	margin-top: 7em;
-	padding: 0 0 0 7rem;
-	background-color: transparent;
-	color: #333;
+	margin-top: 7em !important;
+	padding: 0 0 0 7rem !important;
+	background-color: transparent !important;
+	color: #333 !important;
 	font-size: 22px;
 }
 .editor-styles-wrapper .is-style-heading-count.is-style-heading-count::before {
