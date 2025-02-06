@@ -323,7 +323,15 @@ h4.is-style-heading-count.is-style-heading-count {
 /* アコーディオン
 ---------------------------------------------------------------------------------------------------*/
 
-/* アコーディオンの連番 */
+
+/* UL/OL */
+.swell-block-accordion .swell-block-accordion__body .wp-block-list {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+
+/* 連番 */
 .sequential-numbering {
 	counter-reset: accordion-counter;
 }
@@ -346,6 +354,12 @@ h4.is-style-heading-count.is-style-heading-count {
 	.swell-block-accordion.sequential-numbering .swell-block-accordion__item .swell-block-accordion__label::before {
 		top: 3px;
 	}
+}
+
+
+/* 背景色 */
+.swell-block-accordion.white details {
+	background: #fff;
 }
 
 
@@ -398,6 +412,17 @@ h4.is-style-heading-count.is-style-heading-count {
 	color: #447c46;
 }
 
+
+/* フルワイド
+---------------------------------------------------------------------------------------------------*/
+
+.swell-block-fullWide {
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+.swell-block-fullWide + .swell-block-fullWide {
+	margin-top: -5em;
+}
 
 
 /* 10選

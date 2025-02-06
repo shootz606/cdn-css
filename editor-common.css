@@ -261,7 +261,13 @@ ul.has-border.-border04{
 /* アコーディオン
 ---------------------------------------------------------------------------------------------------*/
 
-/* アコーディオンの連番 */
+/* UL/OL */
+.editor-styles-wrapper .swell-block-accordion .swell-block-accordion__body .wp-block-list {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+/* 連番 */
 .editor-styles-wrapper .sequential-numbering {
 	counter-reset: accordion-counter;
 }
@@ -279,6 +285,12 @@ ul.has-border.-border04{
 	font-family: 'Josefin Sans',sans-serif;
 	font-size: 17px;
 	font-weight: bold;
+}
+
+
+/* 背景色 */
+.swell-block-accordion.white details {
+	background: #fff;
 }
 
 
