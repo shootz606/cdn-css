@@ -431,6 +431,11 @@ h4.is-style-heading-count.is-style-heading-count {
 /* 説明リスト（DL）
 ---------------------------------------------------------------------------------------------------*/
 
+.swell-block-dl {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
 .swell-block-dl__dd > ul.wp-block-list {
 	margin-top: 0;
 }

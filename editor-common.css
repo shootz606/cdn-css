@@ -307,6 +307,11 @@ ul.has-border.-border04{
 /* アコーディオン
 ---------------------------------------------------------------------------------------------------*/
 
+.editor-styles-wrapper .swell-block-accordion {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
 /* UL/OL */
 .editor-styles-wrapper .swell-block-accordion .swell-block-accordion__body .wp-block-list {
 	margin-top: 2em;
@@ -346,6 +351,11 @@ ul.has-border.-border04{
 
 /* 説明リスト（DL）
 ---------------------------------------------------------------------------------------------------*/
+
+.editor-styles-wrapper .swell-block-dl {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
 
 /* 説明リストの連番 */
 .editor-styles-wrapper .swell-block-dl.sequential-numbering .swell-block-dl__dt {
