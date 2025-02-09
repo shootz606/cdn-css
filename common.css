@@ -374,6 +374,9 @@ h4.is-style-heading-count.is-style-heading-count {
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
+.swell-block-accordion .swell-block-accordion__body .swell-block-dl__dd .wp-block-list {
+	margin-top: 0;
+}
 
 
 /* 連番 */

@@ -312,6 +312,10 @@ ul.has-border.-border04{
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
+.editor-styles-wrapper .swell-block-accordion .swell-block-accordion__body .swell-block-dl__dd .wp-block-list {
+	margin-top: 0;
+}
+
 
 /* 連番 */
 .editor-styles-wrapper .sequential-numbering {
