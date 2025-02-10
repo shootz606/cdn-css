@@ -427,6 +427,9 @@ h4.is-style-heading-count.is-style-heading-count {
 	margin-bottom: 3em;
 }
 
+.post_content .swell-block-accordion .swell-block-accordion__body > p:first-of-type {
+	margin-top: 1em !important;
+}
 
 /* UL/OL */
 .swell-block-accordion .swell-block-accordion__body .wp-block-list {
