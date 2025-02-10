@@ -422,6 +422,11 @@ h4.is-style-heading-count.is-style-heading-count {
 /* アコーディオン
 ---------------------------------------------------------------------------------------------------*/
 
+.post_content .swell-block-accordion {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
 
 /* UL/OL */
 .swell-block-accordion .swell-block-accordion__body .wp-block-list {
