@@ -300,6 +300,18 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 
+/* 先頭に矢印 */
+.p-with-arrow {
+	position: relative;
+	padding-left: 1.5em;
+}
+.p-with-arrow::before {
+	position: absolute;
+	left: 0;
+	content: "→ "
+}
+
+
 /* OL/UL
 ---------------------------------------------------------------------------------------------------*/
 
@@ -396,6 +408,28 @@ h4.is-style-heading-count.is-style-heading-count {
 	 border-radius: 4px;
 	}
 }
+
+
+/* table
+---------------------------------------------------------------------------------------------------*/
+
+.wp-block-table {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.wp-block-table th, .wp-block-table td {
+	font-size: 90%;
+}
+.wp-block-table td a{
+	word-wrap: break-word;
+}
+
+
+/* 線なし */
+.wp-block-table.no-border td {
+	border: 0;
+}
+.wp-block-table.no-border td:nth-of-type(1) { padding-left: 0; }
 
 
 /* 引用
