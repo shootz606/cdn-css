@@ -558,3 +558,21 @@ h4.is-style-heading-count.is-style-heading-count {
 .wp-block-group.area .swell-block-accordion__body p::last-child {
 	margin-bottom: 0;
 }
+
+
+/* 装飾
+---------------------------------------------------------------------------------------------------*/
+
+/* margin */
+.m0-r { margin-right: 0 !important; }
+.m1-r { margin-right: 1em !important; }
+.m2-r { margin-right: 2em !important; }
+.m3-r { margin-right: 3em !important; }
+.m4-r { margin-right: 4em !important; }
+.m5-r { margin-right: 5em !important; }
+.m0-l { margin-left: 0 !important; }
+.m1-l { margin-left: 1em !important; }
+.m2-l { margin-left: 2em !important; }
+.m3-l { margin-left: 3em !important; }
+.m4-l { margin-left: 4em !important; }
+.m5-l { margin-left: 5em !important; }
