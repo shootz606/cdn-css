@@ -453,3 +453,17 @@ ul.has-border.-border04{
 .m3-l { margin-left: 3em !important; }
 .m4-l { margin-left: 4em !important; }
 .m5-l { margin-left: 5em !important; }
+
+/* padding */
+.p0-r { padding-right: 0 !important; }
+.p1-r { padding-right: 1em !important; }
+.p2-r { padding-right: 2em !important; }
+.p3-r { padding-right: 3em !important; }
+.p4-r { padding-right: 4em !important; }
+.p5-r { padding-right: 5em !important; }
+.p0-l { padding-left: 0 !important; }
+.p1-l { padding-left: 1em !important; }
+.p2-l { padding-left: 2em !important; }
+.p3-l { padding-left: 3em !important; }
+.p4-l { padding-left: 4em !important; }
+.p5-l { padding-left: 5em !important; }
