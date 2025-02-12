@@ -475,6 +475,14 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 
+/* 余白 */
+@media print, screen and (max-width: 599px) {
+	.px-0 .swell-block-accordion__item .swell-block-accordion__body {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
 /* 連番 */
 .sequential-numbering {
 	counter-reset: accordion-counter;
