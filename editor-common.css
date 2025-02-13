@@ -393,6 +393,9 @@ ul.has-border.-border04{
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
+.editor-styles-wrapper .swell-block-accordion .swell-block-accordion__body > .wp-block-list:first-of-type {
+	margin-top: 1em !important;
+}
 .editor-styles-wrapper .swell-block-accordion .swell-block-accordion__body .swell-block-dl__dd .wp-block-list {
 	margin-top: 0;
 }
