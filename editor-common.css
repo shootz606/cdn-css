@@ -364,7 +364,7 @@ ul.has-border.-border04{
 .editor-styles-wrapper .wp-block-quote {
 	margin-top: 3em;
 	margin-bottom: 3em;
-	padding: 5em 2em 1.5em;
+	padding: 5em 2em 1.5em !important;
 	border-radius: 2px;
 }
 .editor-styles-wrapper .wp-block-quote + .wp-block-quote {
