@@ -460,6 +460,10 @@ h4.is-style-heading-count.is-style-heading-count {
 	content: '\f10d';
 }
 
+.post_content blockquote > p:not(:last-child) {
+	margin: 0 0 1em;
+}
+
 .wp-block-quote p{
 	font-size: 94%;
 }
@@ -484,6 +488,7 @@ h4.is-style-heading-count.is-style-heading-count {
 	margin-bottom: 3em;
 }
 
+
 /* UL/OL */
 .swell-block-accordion .swell-block-accordion__body .wp-block-list {
 	margin-top: 2em;
@@ -491,6 +496,12 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 .swell-block-accordion .swell-block-accordion__body .swell-block-dl__dd .wp-block-list {
 	margin-top: 0;
+}
+
+
+/* DL */
+.swell-block-accordion .swell-block-accordion__body .swell-block-dl {
+	margin-top: 2em;
 }
 
 
