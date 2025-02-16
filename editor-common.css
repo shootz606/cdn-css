@@ -441,7 +441,7 @@ ul.has-border.-border04{
 
 /* 背景色 */
 .swell-block-accordion.white details {
-	background: #fff;
+	background: #fff !important;
 }
 
 
