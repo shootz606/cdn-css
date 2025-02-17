@@ -411,6 +411,7 @@ ul.has-border.-border04{
 
 
 .editor-styles-wrapper .swell-block-accordion .swell-block-accordion__title .swell-block-accordion__label {
+	margin-bottom: 0 !important;
 	font-size: 90%;
 	font-weight: bold;
 }
