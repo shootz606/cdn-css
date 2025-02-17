@@ -489,9 +489,14 @@ h4.is-style-heading-count.is-style-heading-count {
 	margin-bottom: 3em;
 }
 
-.swell-block-accordion .swell-block-accordion__title .swell-block-accordion__label {
+.post_content .swell-block-accordion .swell-block-accordion__title .swell-block-accordion__label {
 	font-size: 90%;
 	font-weight: bold;
+}
+@media print, screen and (max-width: 599px) {
+	.post_content .swell-block-accordion .swell-block-accordion__title .swell-block-accordion__label {
+		font-size: 84%;
+	}
 }
 
 
