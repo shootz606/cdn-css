@@ -289,6 +289,32 @@ ul.has-border.-border04{
 .orange.is-style-num_circle li:before{ background-color: #f5955b; box-shadow: 0 0 0 1px #f5955b; }
 
 
+/* 「」 */
+.editor-styles-wrapper .list-quote {
+	list-style: none;
+	padding-left: 0 !important;
+}
+.editor-styles-wrapper .list-quote li {
+	position: relative;
+	padding-left: 1em;
+	display: inline-block;
+	white-space: nowrap;
+}
+.editor-styles-wrapper .list-quote li::before {
+	position: absolute;
+	left: -.2em;
+	content: "「";
+	display: inline;
+	white-space: nowrap;
+}
+.editor-styles-wrapper .list-quote li div.rich-text::after {
+	content: "」";
+	display: inline;
+	white-space: nowrap;
+}
+
+
+/* コメント */
 .w-comment,.m-comment{
 	padding: 0!important;
 }
@@ -424,6 +450,9 @@ ul.has-border.-border04{
 }
 .editor-styles-wrapper .swell-block-accordion .swell-block-accordion__body > .wp-block-list:first-of-type {
 	margin-top: 1em !important;
+}
+.editor-styles-wrapper .swell-block-accordion .swell-block-accordion__body > p + .wp-block-list:first-of-type {
+    margin-top: 2em !important;
 }
 .editor-styles-wrapper .swell-block-accordion .swell-block-accordion__body .swell-block-dl__dd .wp-block-list {
 	margin-top: 0;

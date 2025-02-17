@@ -352,6 +352,25 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 
+/* 「」 */
+.post_content .list-quote {
+	list-style: none;
+	padding-left: 0;
+}
+.post_content .list-quote li {
+	position: relative;
+	padding-left: 1em;
+}
+.post_content .list-quote li::before {
+	position: absolute;
+	left: -.2em;
+	content: "「";
+}
+.post_content .list-quote li::after {
+	content: "」";
+}
+
+
 /* コメント */
 .w-comment,.m-comment{
 	margin: 2.5em 0;
