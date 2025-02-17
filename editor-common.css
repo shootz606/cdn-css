@@ -410,6 +410,12 @@ ul.has-border.-border04{
 }
 
 
+.editor-styles-wrapper .swell-block-accordion .swell-block-accordion__title .swell-block-accordion__label {
+	font-size: 90%;
+	font-weight: bold;
+}
+
+
 /* UL/OL */
 .editor-styles-wrapper .swell-block-accordion .swell-block-accordion__body .wp-block-list {
 	margin-top: 2em;

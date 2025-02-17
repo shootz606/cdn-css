@@ -480,12 +480,18 @@ h4.is-style-heading-count.is-style-heading-count {
 	color: #333;
 }
 
+
 /* アコーディオン
 ---------------------------------------------------------------------------------------------------*/
 
 .post_content .swell-block-accordion {
 	margin-top: 3em;
 	margin-bottom: 3em;
+}
+
+.swell-block-accordion .swell-block-accordion__title .swell-block-accordion__label {
+	font-size: 90%;
+	font-weight: bold;
 }
 
 
