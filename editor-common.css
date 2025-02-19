@@ -173,7 +173,7 @@
 .editor-styles-wrapper .wp-block.is-style-heading-bordered.is-style-heading-bordered::before {
 	position: absolute;
 	content: counter(bordered, decimal);
-	top: 50%;
+	top: 48%;
 	left: 22px;
 	transform: translateY(-50%);
 	width: auto;
