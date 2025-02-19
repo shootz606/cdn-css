@@ -167,14 +167,18 @@
 	border: 2px solid #102e24;
 	border-radius: 5px;
 	color: #333333;
+	font-size: 1.2em;
 	counter-increment: bordered;
 }
 .editor-styles-wrapper .wp-block.is-style-heading-bordered.is-style-heading-bordered::before {
 	position: absolute;
 	content: counter(bordered, decimal);
-	top: 55%;
+	top: 50%;
 	left: 22px;
 	transform: translateY(-50%);
+	width: auto;
+	height: 1em;
+	background: none;
 	color: #fff;
 	font-family: 'Josefin Sans',sans-serif;
 	font-size: 1.2em;
