@@ -231,6 +231,7 @@
 	background: none;
 	border: 0;
 	color: #222;
+	font-size: 18px;
 	text-align: center;
 }
 .editor-styles-wrapper .is-style-heading-underline.is-style-heading-underline::before{

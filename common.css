@@ -269,6 +269,7 @@ h4.is-style-heading-count.is-style-heading-count {
 	background: none;
 	border: 0;
 	color: #222;
+	font-size: 18px;
 	text-align: center;
 }
 .post_content .is-style-heading-underline.is-style-heading-underline::before {
