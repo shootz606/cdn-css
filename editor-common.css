@@ -263,6 +263,19 @@
 }
 
 
+/* source */
+.editor-styles-wrapper p.source{
+	color: #666;
+	font-size: 80%;
+}
+.editor-styles-wrapper p.source a{
+	color: #666;
+}
+.wp-block-group .pb-bar-graph + .source {
+	margin-top: -2em;
+}
+
+
 /* OL/UL
 ---------------------------------------------------------------------------------------------------*/
 

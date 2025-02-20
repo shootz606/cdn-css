@@ -318,6 +318,19 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 
+/* source */
+.post_content p.source{
+	color: #666;
+	font-size: 80%;
+}
+.post_content p.source a{
+	color: #666;
+}
+.wp-block-group .pb-bar-graph + .source {
+	margin-top: -2em;
+}
+
+
 /* OL/UL
 ---------------------------------------------------------------------------------------------------*/
 
