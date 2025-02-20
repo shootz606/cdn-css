@@ -262,6 +262,7 @@ h4.is-style-heading-count.is-style-heading-count {
 
 /* 小さなアンダーライン */
 .post_content .is-style-heading-underline.is-style-heading-underline {
+	position: relative;
 	width: 100%;
 	margin: 4em auto 3em;
 	padding: 1.5rem;
