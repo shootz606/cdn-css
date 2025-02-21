@@ -631,6 +631,9 @@ h4.is-style-heading-count.is-style-heading-count {
 		font-size: 90%;
 	}
 }
+.swell-block-capbox .cap_box_content ul,.swell-block-capbox .cap_box_content ol {
+	padding-top: 0.5em;
+}
 
 
 
