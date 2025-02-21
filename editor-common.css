@@ -1,4 +1,12 @@
 
+/* 全体
+---------------------------------------------------------------------------------------------------*/
+
+.editor-styles-wrapper div>:first-child, .editor-styles-wrapper>:first-child {
+    margin-top: 0 !important;
+}
+
+
 /* グループ
 ---------------------------------------------------------------------------------------------------*/
 
@@ -220,6 +228,29 @@
 	margin-right: 20px;
 }
 .editor-styles-wrapper .is-style-heading-hr.is-style-heading-hr::after {
+	margin-left: 20px;
+}
+
+
+/* 横線（幅いっぱい） */
+.editor-styles-wrapper .is-style-heading-wide-hr.is-style-heading-wide-hr {
+	display: flex;
+	padding: 0;
+	border: none;
+	align-items: center;
+}
+.editor-styles-wrapper .is-style-heading-wide-hr.is-style-heading-wide-hr::before,
+.editor-styles-wrapper .is-style-heading-wide-hr.is-style-heading-wide-hr::after {
+ 	content: '';
+ 	flex-grow: 1;
+ 	top: 50%;
+ 	height: 1px;
+ 	background-color: #555;
+ }
+.editor-styles-wrapper .is-style-heading-wide-hr.is-style-heading-wide-hr::before {
+	margin-right: 20px;
+}
+.editor-styles-wrapper .is-style-heading-wide-hr.is-style-heading-wide-hr::after {
 	margin-left: 20px;
 }
 
