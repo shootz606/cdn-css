@@ -315,7 +315,7 @@ ul.has-border.-border04{
 .editor-styles-wrapper .list-quote li {
 	position: relative;
 	padding-left: 1em;
-	display: inline-block;
+	display: block;
 	white-space: nowrap;
 }
 .editor-styles-wrapper .list-quote li::before {
