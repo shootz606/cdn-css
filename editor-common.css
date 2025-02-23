@@ -242,12 +242,12 @@
 }
 .editor-styles-wrapper .is-style-heading-wide-hr.is-style-heading-wide-hr::before,
 .editor-styles-wrapper .is-style-heading-wide-hr.is-style-heading-wide-hr::after {
- 	content: '';
- 	position: static;
+ 	content: '' !important;
+ 	position: static !important;
 	flex-grow: 1;
  	top: 50%;
- 	height: 1px;
- 	background-color: #555;
+ 	height: 1px !important;
+ 	background-color: #555 !important;
  }
 .editor-styles-wrapper .is-style-heading-wide-hr.is-style-heading-wide-hr::before {
 	margin-right: 20px;
