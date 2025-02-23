@@ -242,7 +242,8 @@
 .editor-styles-wrapper .is-style-heading-wide-hr.is-style-heading-wide-hr::before,
 .editor-styles-wrapper .is-style-heading-wide-hr.is-style-heading-wide-hr::after {
  	content: '';
- 	flex-grow: 1;
+ 	position: static;
+	flex-grow: 1;
  	top: 50%;
  	height: 1px;
  	background-color: #555;
@@ -538,6 +539,14 @@ ul.has-border.-border04{
 /* 背景色 */
 .editor-styles-wrapper .swell-block-accordion.white details {
 	background: #fff !important;
+}
+
+
+/* キャプションボックス
+---------------------------------------------------------------------------------------------------*/
+
+.swell-block-capbox .cap_box_content ul,.swell-block-capbox .cap_box_content ol {
+	padding-top: 0.5em;
 }
 
 

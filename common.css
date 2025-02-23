@@ -269,12 +269,13 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 .post_content .is-style-heading-wide-hr.is-style-heading-wide-hr::before,
 .post_content .is-style-heading-wide-hr.is-style-heading-wide-hr::after {
- 	content: '';
- 	flex-grow: 1;
- 	top: 50%;
- 	height: 1px;
- 	background-color: #555;
- }
+	content: '';
+	position: static;
+	flex-grow: 1;
+	top: 50%;
+	height: 1px;
+	background-color: #555;
+}
 .post_content .is-style-heading-wide-hr.is-style-heading-wide-hr::before {
 	margin-right: 20px;
 }
