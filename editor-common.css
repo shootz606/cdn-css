@@ -435,6 +435,13 @@ ul.has-border.-border04{
 }
 
 
+/* 1列目幅固定 */
+.editor-styles-wrapper .wp-block-table.row1-10 th:nth-of-type(1),.wp-block-table.row1-10 td:nth-of-type(1){ width: 10% !important; }
+.editor-styles-wrapper .wp-block-table.row1-15 th:nth-of-type(1),.wp-block-table.row1-10 td:nth-of-type(1){ width: 15% !important; }
+.editor-styles-wrapper .wp-block-table.row1-20 th:nth-of-type(1),.wp-block-table.row1-20 td:nth-of-type(1){ width: 20% !important; }
+
+
+
 /* 引用
 ---------------------------------------------------------------------------------------------------*/
 
@@ -583,6 +590,14 @@ ul.has-border.-border04{
 .editor-styles-wrapper .swell-block-step {
 	margin-top: 3em;
 	margin-bottom: 3em;
+}
+
+
+/* タブ
+---------------------------------------------------------------------------------------------------*/
+
+.editor-styles-wrapper .swell-block-tab .c-tabBody {
+	padding-top: 1em;
 }
 
 
