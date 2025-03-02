@@ -613,6 +613,72 @@ ul.has-border.-border04{
 }
 
 
+/* 商品情報ブロック
+---------------------------------------------------------------------------------------------------*/
+
+/* 商品ボタンのコンテナ */
+.product-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+
+/* 商品画像表示 */
+.product-buttons .product-image {
+	text-align: center;
+}
+
+
+/* 価格表示 */
+.product-buttons .product-price-text {
+	width: 100%;
+	margin-bottom: 1em !important;
+	font-size: 13px !important;
+	color: #666;
+	text-align: center !important;
+}
+.product-buttons .product-price-text .price-date {
+	color: #999 !important;
+	font-size: 10px !important;
+}
+
+
+/* ボタンのデザイン */
+.product-buttons .product-button {
+	flex: 1; /* 均等幅 */
+	min-width: 30%;
+	padding: 10px 16px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 2px;
+	transition: 0.3s ease;
+	display: block;
+	text-align: center;
+}
+
+/* 各ボタンのカラー */
+.product-buttons .product-button.official {
+	background: #0073aa;
+}
+.product-buttons .product-button.amazon {
+	background: #FF9900;
+}
+.product-buttons .product-button.rakuten {
+	background: #BF0000;
+}
+
+/* ホバー時のエフェクト */
+.product-buttons .product-button:hover {
+	opacity: 0.8;
+}
+
+
 /* 装飾
 ---------------------------------------------------------------------------------------------------*/
 
