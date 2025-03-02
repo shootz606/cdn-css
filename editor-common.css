@@ -553,6 +553,10 @@ ul.has-border.-border04{
 /* キャプションボックス
 ---------------------------------------------------------------------------------------------------*/
 
+.swell-block-capbox {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
 .swell-block-capbox.is-style-inner {
 	margin-top: 3.5em;
 }
