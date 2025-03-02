@@ -820,7 +820,7 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 /* スマホ対応（縦並び） */
-@media screen and (max-width: 768px) {
+@media print, screen and (max-width: 599px) {
 	.product-buttons .product-buttons {
 		flex-direction: column;
 		gap: 5px;
