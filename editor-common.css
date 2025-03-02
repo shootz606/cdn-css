@@ -625,6 +625,12 @@ ul.has-border.-border04{
 .m3-l { margin-left: 3em !important; }
 .m4-l { margin-left: 4em !important; }
 .m5-l { margin-left: 5em !important; }
+.m0-b { margin-bottom: 0 !important; }
+.m1-b { margin-bottom: 1em !important; }
+.m2-b { margin-bottom: 2em !important; }
+.m3-b { margin-bottom: 3em !important; }
+.m4-b { margin-bottom: 4em !important; }
+.m5-b { margin-bottom: 5em !important; }
 
 /* padding */
 .p0-r { padding-right: 0 !important; }
