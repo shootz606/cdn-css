@@ -821,7 +821,7 @@ h4.is-style-heading-count.is-style-heading-count {
 
 /* スマホ対応（縦並び） */
 @media print, screen and (max-width: 599px) {
-	.product-buttons .product-buttons {
+	.product-buttons {
 		flex-direction: column;
 		gap: 5px;
 	}
@@ -833,7 +833,6 @@ h4.is-style-heading-count.is-style-heading-count {
 		text-align: center !important;
 	}
 	.product-buttons .product-price-text .price-date {
-		color: #FF9900 !important;
 		font-size: 10px !important;
 		display: inline !important;
 		text-decoration: none !important;
