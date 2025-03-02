@@ -641,6 +641,9 @@ h4.is-style-heading-count.is-style-heading-count {
 .swell-block-capbox {
 	margin-bottom: 3em;
 }
+.swell-block-capbox.is-style-inner {
+	margin-top: 3.5em;
+}
 .swell-block-capbox .cap_box_content p {
 	font-size: 94%;
 }
