@@ -600,6 +600,10 @@ ul.has-border.-border04{
 	margin-bottom: 3em;
 }
 
+.swell-block-step__title + .swell-block-step__body {
+	margin-top: 2em;
+}
+
 
 /* タブ
 ---------------------------------------------------------------------------------------------------*/
