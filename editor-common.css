@@ -94,6 +94,25 @@
 }
 
 
+/* カウント2 */
+.editor-styles-wrapper .is-style-heading-num.is-style-heading-num {
+	position: relative;
+	padding: 0.5em 0.5em 0.5em 2.5em;
+	counter-increment: cntnum;
+}
+.editor-styles-wrapper h5.is-style-heading-num.is-style-heading-num {
+	padding-left: 5em;
+}
+.editor-styles-wrapper h6.is-style-heading-num.is-style-heading-num {
+	padding-left: 7em;
+}
+
+
+.heading-num-reset{
+	counter-reset: cntnum;
+}
+
+
 /* カウント3 */
 .editor-styles-wrapper .wp-block.is-style-heading-step.is-style-heading-step {
 	margin-top: 5em;
