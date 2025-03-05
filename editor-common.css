@@ -322,6 +322,40 @@
 }
 
 
+/* double flame */
+.editor-styles-wrapper .is-style-heading-double-flame.is-style-heading-double-flame {
+	position: relative;
+	margin-top: 4em;
+	margin-bottom: 3em;
+	padding: 1.2rem 2rem;
+	background: transparent;
+	outline: 1px solid #333;
+	z-index: 0;
+}
+.editor-styles-wrapper .is-style-heading-double-flame.is-style-heading-double-flame::before {
+	position: absolute;
+	top: 6px !important;
+	left: 6px !important;
+	width: calc(100% - 12px) !important;
+	height: calc(100% - 12px) !important;
+	background: rgba(55, 0, 53, 0.1) !important;
+	border: 0 !important;
+	content: '';
+	z-index: -1;
+}
+.editor-styles-wrapper .is-style-heading-double-flame.is-style-heading-double-flame::after {
+	position: absolute;
+	bottom: -6px;
+	right: -6px;
+	width: 98%;
+	height: 98%;
+	border-right: solid 1px #333;
+	border-bottom: solid 1px #333;
+	content: '';
+	z-index: -1;
+}
+
+
 /* P
 ---------------------------------------------------------------------------------------------------*/
 
