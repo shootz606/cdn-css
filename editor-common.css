@@ -220,14 +220,14 @@
 	counter-increment: bordered;
 }
 .editor-styles-wrapper .wp-block.is-style-heading-bordered.is-style-heading-bordered::before {
-	position: absolute;
-	content: counter(bordered, decimal);
+	position: absolute !important;
+	content: counter(bordered, decimal) !important;
 	top: 48%;
-	left: 22px;
+	left: 22px !important;
 	transform: translateY(-50%);
-	width: auto;
-	height: 1em;
-	background: none;
+	width: auto !important;
+	height: 1em !important;
+	background: none !important;
 	color: #fff;
 	font-family: 'Josefin Sans',sans-serif;
 	font-size: 1.2em;
