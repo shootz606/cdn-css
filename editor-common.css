@@ -180,19 +180,20 @@
 	font-size: 20px;
 }
 .editor-styles-wrapper .wp-block.is-style-heading-sequence.is-style-heading-sequence::before {
-	position: absolute;
+	position: absolute !important;
 	top: 50%;
-	bottom: auto;
-	left: 0;
-	width: auto;
-	height: auto;
+	bottom: auto !important;
+	left: 0 !important;
+	width: auto !important;
+	height: auto !important;
 	transform: translateY(-50%);
-	background: none;
+	background: none !important;
+	border: 0 !important;
 	color: rgba(63,193,201,0.3);
 	font-size: 50px;
 	font-family: 'Josefin Sans',sans-serif;
 	counter-increment: sequence;
-	content: counter(sequence, decimal-leading-zero);
+	content: counter(sequence, decimal-leading-zero) !important;
 }
 .editor-styles-wrapper .wp-block.is-style-heading-sequence.is-style-heading-sequence::after {
 	position: absolute;
