@@ -101,6 +101,26 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 
+/* カウント2 */
+.post_content .is-style-heading-num.is-style-heading-num {
+	position: relative;
+	margin-left: 1.5em;
+	padding: 0.5em 0.5em 0.5em 2.5em;
+	counter-increment: cntnum;
+}
+@media only screen and (min-width: 600px) {
+	.post_content h5.is-style-heading-num.is-style-heading-num,
+	.post_content h6.is-style-heading-num.is-style-heading-num {
+		padding: 0.5em 0.5em 0.5em 3.5em;
+	}
+}
+
+
+.heading-num-reset{
+	counter-reset: cntnum;
+}
+
+
 /* カウント3 */
 .post_content .is-style-heading-step.is-style-heading-step {
 	position: relative;
