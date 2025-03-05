@@ -123,7 +123,8 @@
 	text-align: center;
 	content: counter(cntnum, decimal-leading-zero);
 }
-
+.editor-styles-wrapper.is-style-heading-num.is-style-heading-num.pink { background: #fae7f2; }
+.editor-styles-wrapper.is-style-heading-num.is-style-heading-num.pink::before { background: #df63ac!important; }
 
 .heading-num-reset{
 	counter-reset: cntnum;

@@ -104,8 +104,7 @@ h4.is-style-heading-count.is-style-heading-count {
 /* カウント2 */
 .post_content .is-style-heading-num.is-style-heading-num {
 	position: relative;
-	margin-left: 1.5em;
-	padding: 0.5em 0.5em 0.5em 2.5em;
+	padding: 0.5em 0.5em 0.5em 3.5em;
 	counter-increment: cntnum;
 }
 @media only screen and (min-width: 600px) {
@@ -116,29 +115,31 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 .post_content .is-style-heading-num.is-style-heading-num::before {
 	position: absolute;
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	top: 50%;
-	left: -1.1em;
+	left: -0.5em;
 	transform: translateY(-50%);
 	width: 70px;
 	height: 70px;
 	border: solid 3px #fff;
 	border-radius: 50%;
 	color: #fff;
-	font-family: 'arial';
+	font-family: 'Arial', sans-serif;
 	font-size: 1.5em;
-	line-height: 70px;
 	text-align: center;
 	content: counter(cntnum, decimal);
 }
 @media print, screen and (max-width: 599px) {
 	.post_content .is-style-heading-num.is-style-heading-num::before {
-		left: -1.3em;
 		width: 60px;
 		height: 60px;
 		line-height: 60px;
 	}
 }
+.post_content .is-style-heading-num.is-style-heading-num.pink { background: #fae7f2; }
+.post_content .is-style-heading-num.is-style-heading-num.pink::before { background: #df63ac; }
 
 .heading-num-reset{
 	counter-reset: cntnum;
