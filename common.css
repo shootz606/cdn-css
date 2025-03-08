@@ -853,6 +853,18 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 
 
+/* 商品説明 */
+.product-description {
+	margin-bottom: 2rem;
+}
+.product-description p {
+	margin-bottom: 1em;
+}
+.product-description .swell-block-balloon .c-balloon__text p {
+	margin-bottom: 0;
+}
+
+
 /* 商品画像表示 */
 .product-buttons .product-image {
 	text-align: center;
