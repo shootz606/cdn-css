@@ -238,6 +238,7 @@ h4.is-style-heading-count.is-style-heading-count {
 	display: flex;
 	justify-content: start;
 	align-items: center;
+	margin-top: 4em;
 	margin-bottom: 3em!important;
 	padding: .5em .7em;
 	overflow: hidden;
