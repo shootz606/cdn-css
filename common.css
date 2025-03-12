@@ -238,6 +238,7 @@ h4.is-style-heading-count.is-style-heading-count {
 	display: flex;
 	justify-content: start;
 	align-items: center;
+	margin-bottom: 3em!important;
 	padding: .5em .7em;
 	overflow: hidden;
 	border: 2px solid #102e24;
@@ -398,6 +399,11 @@ h4.is-style-heading-count.is-style-heading-count {
 	content: '';
 	z-index: -1;
 }
+
+
+/* 装飾
+---------------------------------------------------------------------------------------------------*/
+
 
 
 /* P
