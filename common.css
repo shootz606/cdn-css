@@ -989,14 +989,22 @@ h4.is-style-heading-count.is-style-heading-count {
 .post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__r {
 	flex-basis: 50%;
 	width: 50%;
-}
-.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__r {
-	background: #f0f9fc;
+	padding: 1.25em 1.5em;
 }
 .post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__l {
+	background: #f0f9fc;
+}
+.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__r {
 	background: #fff6f2;
 }
-
+.post_content .merit-demerit-block .merit-demerit-block__body li {
+	position: relative;
+	margin: 0.7em 0 !important;
+	font-size: 84%;
+}
+.post_content .merit-demerit-block .merit-demerit-block__body ul.pb-list.-icon-dot li::before {
+	content: "\e909";
+}
 
 
 /* 装飾
