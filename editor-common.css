@@ -146,6 +146,7 @@
 }
 .editor-styles-wrapper .wp-block.is-style-heading-step.is-style-heading-step::before {
 	position: static !important;
+	display: block;
 	width: auto !important;
 	height: auto !important;
 	margin-bottom: 30px;
