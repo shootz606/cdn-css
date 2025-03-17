@@ -774,6 +774,71 @@ ul.has-border.-border04{
 }
 
 
+/* メリット・デメリット
+---------------------------------------------------------------------------------------------------*/
+
+.post_content .merit-demerit-block {
+	margin-top: 3em;
+	margin-bottom: 3em;
+	border-radius: 4px;
+	box-shadow: 0 3px 5px #00000012;
+	overflow: hidden;
+	z-index: 0;
+}
+.post_content .merit-demerit-block .merit-demerit-block__head {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.post_content .merit-demerit-block .merit-demerit-block__head .merit-demerit-block__head__l,
+.post_content .merit-demerit-block .merit-demerit-block__head .merit-demerit-block__head__r {
+	flex-basis: 50%;
+	width: 50%;
+	padding: 0.75em 1em;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.post_content .merit-demerit-block .merit-demerit-block__head .merit-demerit-block__head__l {
+	background: #6fc7e1;
+}
+.post_content .merit-demerit-block .merit-demerit-block__head .merit-demerit-block__head__r {
+	background: #ffa883;
+}
+.post_content .merit-demerit-block .merit-demerit-block__body {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__l,
+.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__r {
+	flex-basis: 50%;
+	width: 50%;
+	padding: 1.25em 1.5em;
+}
+.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__l {
+	background: #f0f9fc;
+}
+.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__r {
+	background: #fff6f2;
+}
+.post_content .merit-demerit-block .merit-demerit-block__body li {
+	position: relative;
+	list-style: none;
+	margin: 0.7em 0 !important;
+	font-size: 84%;
+}
+.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__l .pb-list li::before {
+	background-color: #6fc7e1;
+	color: #6fc7e1;
+}
+.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__r .pb-list li::before {
+	background-color: #ffa883;
+	color: #ffa883;
+}
+
+
 /* 装飾
 ---------------------------------------------------------------------------------------------------*/
 

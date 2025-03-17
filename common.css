@@ -1021,12 +1021,13 @@ h4.is-style-heading-count.is-style-heading-count {
 	}
 }
 .post_content .merit-demerit-block .merit-demerit-block__body ul.pb-list.-icon-dot li::before {
-	content: "\e909";
-	font-family: pbicon;
-	font-weight: 600;
-	height: 0;
-	width: 0;
-	transform: scale(1)!important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 80%;
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	content: "\f111";
 }
 .post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__l .pb-list li::before {
 	background-color: #6fc7e1;
