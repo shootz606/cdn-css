@@ -991,6 +991,12 @@ h4.is-style-heading-count.is-style-heading-count {
 	width: 50%;
 	padding: 1.25em 1.5em;
 }
+@media print, screen and (max-width: 599px) {
+	.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__l,
+	.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__r {
+		padding: 1em 1em;
+	}
+}
 .post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__l {
 	background: #f0f9fc;
 }
@@ -1002,6 +1008,11 @@ h4.is-style-heading-count.is-style-heading-count {
 	list-style: none;
 	margin: 0.7em 0 !important;
 	font-size: 84%;
+}
+@media print, screen and (max-width: 599px) {
+	.post_content .merit-demerit-block .merit-demerit-block__body li {
+		font-size: 74%;
+	}
 }
 .post_content .merit-demerit-block .merit-demerit-block__body ul.pb-list.-icon-dot li::before {
 	content: "\e909";
