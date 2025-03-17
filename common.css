@@ -1028,6 +1028,7 @@ h4.is-style-heading-count.is-style-heading-count {
 	position: absolute;
 	top: 0;
 	left: 0;
+	font-size: 1.2em;
 	font-weight: 600;
 	content: "•";
 }

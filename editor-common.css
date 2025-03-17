@@ -830,14 +830,21 @@ ul.has-border.-border04{
 	position: relative;
 	list-style: none;
 	margin: 0.7em 0 !important;
+	padding-left: 1.4em;
 	font-size: 84%;
 }
-.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__l .pb-list li::before {
-	background-color: #6fc7e1;
+.post_content .merit-demerit-block .merit-demerit-block__body ul.merit-demerit-list.-icon-dot li::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 1.2em;
+	font-weight: 600;
+	content: "•";
+}
+.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__l .merit-demerit-list li::before {
 	color: #6fc7e1;
 }
-.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__r .pb-list li::before {
-	background-color: #ffa883;
+.post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__r .merit-demerit-list li::before {
 	color: #ffa883;
 }
 
