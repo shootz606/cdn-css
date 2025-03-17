@@ -1026,9 +1026,9 @@ h4.is-style-heading-count.is-style-heading-count {
 }
 .post_content .merit-demerit-block .merit-demerit-block__body ul.merit-demerit-list.-icon-dot li::before {
 	position: absolute;
-	top: 0;
+	top: -10px;
 	left: 0;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	font-weight: 600;
 	content: "•";
 }
