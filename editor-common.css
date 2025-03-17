@@ -509,6 +509,9 @@ ul.has-border.-border04{
 .editor-styles-wrapper .wp-block-table th, .wp-block-table td {
 	font-size: 90%;
 }
+.editor-styles-wrapper .wp-block-table th {
+	text-align: center;
+}
 .editor-styles-wrapper .wp-block-table td a{
 	word-wrap: break-word;
 }
