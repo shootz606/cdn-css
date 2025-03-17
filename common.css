@@ -974,6 +974,12 @@ h4.is-style-heading-count.is-style-heading-count {
 	font-size: 16px;
 	font-weight: bold;
 }
+@media print, screen and (max-width: 599px) {
+	.post_content .merit-demerit-block .merit-demerit-block__head .merit-demerit-block__head__l,
+	.post_content .merit-demerit-block .merit-demerit-block__head .merit-demerit-block__head__r {
+		font-size: 12px;
+	}
+}
 .post_content .merit-demerit-block .merit-demerit-block__head .merit-demerit-block__head__l {
 	background: #6fc7e1;
 }
