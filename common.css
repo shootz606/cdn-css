@@ -1032,11 +1032,9 @@ h4.is-style-heading-count.is-style-heading-count {
 	content: "•";
 }
 .post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__l .merit-demerit-list li::before {
-	background-color: #6fc7e1;
 	color: #6fc7e1;
 }
 .post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__r .merit-demerit-list li::before {
-	background-color: #ffa883;
 	color: #ffa883;
 }
 
