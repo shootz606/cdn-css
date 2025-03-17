@@ -1009,6 +1009,9 @@ h4.is-style-heading-count.is-style-heading-count {
 .post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__r {
 	background: #fff6f2;
 }
+.post_content .merit-demerit-block .merit-demerit-block__body ul {
+	padding-left: 0;
+}
 .post_content .merit-demerit-block .merit-demerit-block__body li {
 	position: relative;
 	list-style: none;
@@ -1024,10 +1027,9 @@ h4.is-style-heading-count.is-style-heading-count {
 	position: absolute;
 	top: 0;
 	left: 0;
-	font-size: 80%;
-	font-family: "Font Awesome 6 Free";
-	font-weight: 900;
-	content: "\f111";
+	font-family: pbicon !important;
+	font-weight: 600;
+	content: "\e909"!important;
 }
 .post_content .merit-demerit-block .merit-demerit-block__body .merit-demerit-block__body__l .merit-demerit-list li::before {
 	background-color: #6fc7e1;
