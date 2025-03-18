@@ -857,6 +857,11 @@ ul.has-border.-border04{
 /* 装飾
 ---------------------------------------------------------------------------------------------------*/
 
+/* font size */
+.fs07 { font-size: 0.7em !important; }
+.fs08 { font-size: 0.8em !important; }
+.fs09 { font-size: 0.9em !important; }
+
 /* margin */
 .m0-r { margin-right: 0 !important; }
 .m1-r { margin-right: 1em !important; }
