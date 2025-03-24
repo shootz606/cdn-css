@@ -693,7 +693,8 @@ h4.is-style-heading-count.is-style-heading-count {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
-	.px-05 .swell-block-accordion__item .swell-block-accordion__body {
+	.px-05 .swell-block-accordion__item .swell-block-accordion__body,
+	.swell-block-accordion__body.px-05 {
 		padding-left: 0.5em !important;
 		padding-right: 0.5em !important;
 	}
