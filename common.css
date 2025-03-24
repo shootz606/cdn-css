@@ -688,7 +688,8 @@ h4.is-style-heading-count.is-style-heading-count {
 
 /* 余白 */
 @media print, screen and (max-width: 599px) {
-	.px-0 .swell-block-accordion__item .swell-block-accordion__body {
+	.px-0 .swell-block-accordion__item .swell-block-accordion__body,
+	.swell-block-accordion__body.px-0 {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
