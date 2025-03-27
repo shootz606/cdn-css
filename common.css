@@ -588,6 +588,7 @@ h4.is-style-heading-count.is-style-heading-count {
 
 
 /* 線なし */
+.wp-block-table.no-border th,
 .wp-block-table.no-border td {
 	border: 0;
 }
