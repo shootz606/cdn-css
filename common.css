@@ -464,13 +464,13 @@ h4.is-style-heading-count.is-style-heading-count {
 	margin-bottom: 2em;
 }
 
-.main_content ol li,
-.main_content ul li{
+.post_content ol li,
+.post_content ul li{
 	font-size: 94%;
 }
 @media print, screen and (max-width: 599px) {
-	.main_content ol li,
-	.main_content ul li{
+	.post_content ol li,
+	.post_content ul li{
 		font-size: 90%;
 	}
 }
