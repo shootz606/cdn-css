@@ -405,6 +405,16 @@ h4.is-style-heading-count.is-style-heading-count {
 /* 装飾
 ---------------------------------------------------------------------------------------------------*/
 
+.kome {
+	position: relative;
+	padding-left: 1.5em;
+}
+.kome::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '※';
+}
 
 
 /* P
