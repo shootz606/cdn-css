@@ -371,20 +371,36 @@
 }
 
 /* ボーダー1 */
-.has-border.-border01{
+.has-border.-border01 {
 	border-radius: 4px;
 }
-ul.has-border.-border01{
+ul.has-border.-border01 {
 	padding-left: 2em;
 }
 
 /* ボーダー4 */
-.has-border.-border04.blue{ border-color: #e1effe; }
-.has-border.-border04.green{ border-color: #c4e6c6; }
-.has-border.-border04.red{ border-color: #f6c0c1; }
-.has-border.-border04.pink{ border-color: #f7b2b2; }
-.has-border.-border04.orange{ border-color: #f7be84; }
-.has-border.-border04.purple{ border-color: #c3b3c3; }
+.has-border.-border04.blue { border-color: #e1effe; }
+.has-border.-border04.green { border-color: #c4e6c6; }
+.has-border.-border04.red { border-color: #f6c0c1; }
+.has-border.-border04.pink { border-color: #f7b2b2; }
+.has-border.-border04.orange { border-color: #f7be84; }
+.has-border.-border04.purple { border-color: #c3b3c3; }
+
+ol.has-border.-border04,
+ul.has-border.-border04 {
+	padding-left: 2.5em;
+}
+.has-border.-border04.is-style-index,
+.has-border.-border04.is-style-check_list{
+	padding-left: 1.5em;
+}
+.has-border.-border04.is-style-num_circle {
+	padding-left: 1em;
+}
+
+.has-border.-border04 li a {
+	color: #333;
+}
 
 
 /* P
@@ -417,15 +433,6 @@ ul.has-border.-border01{
 
 /* OL/UL
 ---------------------------------------------------------------------------------------------------*/
-
-/* ボーダー設定 */
-ol.has-border.-border04,
-ul.has-border.-border04{
-	padding-left: 2.5em;
-}
-.has-border.-border04 li a{
-	color: #333;
-}
 
 /* ボーダー設定（チェックマーク） */
 .editor-styles-wrapper .has-border.-border04.is-style-check_list {
