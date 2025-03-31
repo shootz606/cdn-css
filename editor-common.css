@@ -478,6 +478,12 @@ ul.has-border.-border04 {
 }
 
 
+/* 特徴リストブロック */
+.editor-styles-wrapper .features-list li:last-child {
+	margin-bottom: 0.25em !important;
+}
+
+
 /* コメント */
 .w-comment,.m-comment{
 	padding: 0!important;
