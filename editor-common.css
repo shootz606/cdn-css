@@ -364,6 +364,26 @@
 /* 装飾
 ---------------------------------------------------------------------------------------------------*/
 
+/* ボーダー */
+.has-border{
+	margin-top: 3em !important;
+	margin-bottom: 3em !important;
+}
+
+/* ボーダー1 */
+.has-border.-border01{
+	border-radius: 4px;
+}
+ul.has-border.-border01{
+	padding-left: 2em;
+}
+
+/* ボーダー4 */
+.has-border.-border04.blue{ border-color: #e1effe; }
+.has-border.-border04.green{ border-color: #c4e6c6; }
+.has-border.-border04.red{ border-color: #f6c0c1; }
+.has-border.-border04.pink{ border-color: #f7b2b2; }
+.has-border.-border04.orange{ border-color: #f7be84; }
 
 
 /* P

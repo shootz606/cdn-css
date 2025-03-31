@@ -405,6 +405,7 @@ h4.is-style-heading-count.is-style-heading-count {
 /* 装飾
 ---------------------------------------------------------------------------------------------------*/
 
+/* 米印 */
 .kome {
 	position: relative;
 	padding-left: 1.5em;
@@ -414,6 +415,32 @@ h4.is-style-heading-count.is-style-heading-count {
 	top: 0;
 	left: 0;
 	content: '※';
+}
+
+/* ボーダー */
+.has-border{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+/* ボーダー1 */
+.has-border.-border01{
+	border-radius: 4px;
+}
+ul.has-border.-border01{
+	padding-left: 2em;
+}
+
+/* ボーダー4 */
+.has-border.-border04.blue{ border-color: #e1effe; }
+.has-border.-border04.green{ border-color: #c4e6c6; }
+.has-border.-border04.red{ border-color: #f6c0c1; }
+.has-border.-border04.pink{ border-color: #f7b2b2; }
+.has-border.-border04.orange{ border-color: #f7be84; }
+.has-border.-border04.purple{ border-color: #c3b3c3; }
+
+ul.has-border.-border04.is-style-index{
+	padding-left: 1.5em;
 }
 
 
