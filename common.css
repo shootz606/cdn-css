@@ -39,13 +39,13 @@
 	color: #333;
 	font-size: 22px;
 }
-h2.is-style-heading-count.is-style-heading-count {
-	width: 100%;
-	margin-left: 0;
-	background: none;
+h2.is-style-heading-count {
+	width: 100% !important;
+	margin-left: 0 !important;
+	background: none !important;
 }
-h4.is-style-heading-count.is-style-heading-count {
-	border-left: 0;
+h4.is-style-heading-count {
+	border-left: 0 !important;
 }
 .post_content .is-style-heading-count.is-style-heading-count::before {
 	content: counter(countcnt, decimal-leading-zero);
