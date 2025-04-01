@@ -905,6 +905,9 @@ ul.has-border.-border04 {
 /* リンクリスト
 ---------------------------------------------------------------------------------------------------*/
 
+.swell-block-accordion__body .link_blocks-link-list {
+	margin-top: 2em;
+}
 .link_blocks-link-list {
 	list-style: none;
 	padding-left: 0 !important;

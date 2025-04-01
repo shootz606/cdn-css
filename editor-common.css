@@ -739,14 +739,17 @@ ul.has-border.-border04 {
 /* リンクリスト
 ---------------------------------------------------------------------------------------------------*/
 
-.link_blocks-link-list {
-	list-style: none;
+.editor-styles-wrapper .swell-block-accordion__body .link_blocks-link-list {
+	margin-top: 2em;
+}
+.editor-styles-wrapper .link_blocks-link-list {
+	list-style: none !important;
 	padding-left: 0 !important;
 }
-.link_blocks-link-list .swell-block-postLink {
+.editor-styles-wrapper .link_blocks-link-list .swell-block-postLink {
 	margin: 0;
 }
-.link_blocks-link-list .swell-block-postLink .c-blogLink {
+.editor-styles-wrapper .link_blocks-link-list .swell-block-postLink .c-blogLink {
 	font-size: 116% !important;
 }
 
