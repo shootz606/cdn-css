@@ -148,9 +148,14 @@
 	margin-top: 5em;
 	margin-bottom: 3em;
 	padding: 0;
+	background: none;
 	border: 0;
 	font-size: 22px;
 	text-align: center;
+}
+.editor-styles-wrapper h2.is-style-heading-step {
+	width: 100% !important;
+	margin-left: 0 !important;
 }
 .editor-styles-wrapper .wp-block.is-style-heading-step.is-style-heading-step::before {
 	position: static !important;

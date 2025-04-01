@@ -158,10 +158,15 @@ h4.is-style-heading-count {
 	position: relative;
 	margin: 5em 0 3em;
 	padding: 0;
+	background: none;
 	border: 0;
 	font-size: 22px;
 	font-weight: bold;
 	text-align: center;
+}
+h2.is-style-heading-step {
+	width: 100% !important;
+	margin-left: 0 !important;
 }
 .post_content .is-style-heading-step.is-style-heading-step::before {
 	position: static;
