@@ -791,6 +791,10 @@ ul.has-border.-border04 {
 .product-description .swell-block-balloon .c-balloon__text p {
 	margin-bottom: 0;
 }
+.product-description .wp-block-table td.column-1 {
+	text-align: center;
+	font-weight: bold;
+}
 
 
 /* 商品画像表示 */
@@ -842,6 +846,18 @@ ul.has-border.-border04 {
 /* ホバー時のエフェクト */
 .product-buttons .product-button:hover {
 	opacity: 0.8;
+}
+
+
+/* ランキングブロック
+---------------------------------------------------------------------------------------------------*/
+
+
+/* ランキングブロック（緑背景）
+---------------------------------------------------------------------------------------------------*/
+
+.editor-styles-wrapper .rank-block {
+	text-align: center;
 }
 
 

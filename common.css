@@ -219,7 +219,7 @@ h2.is-style-heading-step {
 	height: auto;
 	transform: translateY(-50%);
 	background: none;
-	color: rgba(63,193,201,0.3);
+	color: #c5ecef;
 	font-size: 50px;
 	font-family: 'Josefin Sans',sans-serif;
 	counter-increment: sequence;
@@ -950,6 +950,10 @@ ul.has-border.-border04 {
 .product-description .swell-block-balloon .c-balloon__text p {
 	margin-bottom: 0;
 }
+.product-description .wp-block-table td.column-1 {
+	text-align: center;
+	font-weight: bold;
+}
 
 
 /* 商品画像表示 */
@@ -1025,6 +1029,18 @@ ul.has-border.-border04 {
 		width: 100%;
 		min-width: auto;
 	}
+}
+
+
+/* ランキングブロック
+---------------------------------------------------------------------------------------------------*/
+
+
+/* ランキングブロック（緑背景）
+---------------------------------------------------------------------------------------------------*/
+
+.rank-block {
+	text-align: center;
 }
 
 
