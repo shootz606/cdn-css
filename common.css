@@ -863,6 +863,24 @@ ul.has-border.-border04 {
 }
 
 
+/* FAQ
+---------------------------------------------------------------------------------------------------*/
+
+.swell-block-faq .swell-block-faq__item .faq_a .wp-block-list {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.swell-block-faq .swell-block-faq__item .faq_a p {
+	font-size: 94%;
+}
+@media print, screen and (max-width: 599px) {
+	.swell-block-faq .swell-block-faq__item .faq_a p {
+		font-size: 90%;
+	}
+}
+
+
 /* ステップ
 ---------------------------------------------------------------------------------------------------*/
 
