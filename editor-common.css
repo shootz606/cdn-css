@@ -377,6 +377,19 @@
 /* 装飾
 ---------------------------------------------------------------------------------------------------*/
 
+/* 米印 */
+.kome {
+	position: relative;
+	padding-left: 1.5em;
+}
+.kome::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '※';
+}
+
+
 /* ボーダー */
 .has-border{
 	margin-top: 3em !important;
