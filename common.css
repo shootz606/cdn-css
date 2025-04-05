@@ -822,7 +822,7 @@ ul.has-border.-border04 {
 }
 
 .swell-block-dl__dd > ul.wp-block-list {
-	margin-top: 0;
+	margin-top: 0 !important;
 }
 
 /* 説明リストの連番 */
@@ -852,11 +852,11 @@ ul.has-border.-border04 {
 
 
 /* チェック */
-.swell-block-dl.is-style-check_list > dt {
+dl.is-style-check_list > dt.swell-block-dl__dt {
 	position: relative;
 	padding-left: 1.5em;
 }
-.swell-block-dl.is-style-check_list > dt::before {
+dl.is-style-check_list > dt.swell-block-dl__dt::before {
 	position: absolute;
 	top: 0;
 	left: 0;
