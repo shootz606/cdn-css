@@ -821,7 +821,8 @@ ul.has-border.-border04 {
 	margin-bottom: 3em;
 }
 
-.swell-block-dl__dd > ul.wp-block-list {
+.swell-block-dl__dd > ul.wp-block-list,
+.swell-block-dl__dd > ul.link_blocks-link-list {
 	margin-top: 0 !important;
 }
 
