@@ -760,6 +760,12 @@ ul.has-border.-border04 {
 	font-family: icomoon;
 	content: '\e923';
 }
+.editor-styles-wrapper dl.is-style-check_list li {
+	padding-left: 0;
+}
+.editor-styles-wrapper dl.is-style-check_list li::before {
+	content: none !important;
+}
 
 
 /* FAQ
