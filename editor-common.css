@@ -741,6 +741,22 @@ ul.has-border.-border04 {
 }
 
 
+/* チェック */
+.editor-styles-wrapper .swell-block-dl.is-style-check_list .swell-block-dl__dt {
+	position: relative;
+	padding-left: 1.5em;
+}
+.editor-styles-wrapper .swell-block-dl.is-style-check_list .swell-block-dl__dt::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1em;
+	height: auto;
+	font-family: icomoon;
+	content: '\e923';
+}
+
+
 /* FAQ
 ---------------------------------------------------------------------------------------------------*/
 
