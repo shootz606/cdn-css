@@ -747,11 +747,11 @@ ul.has-border.-border04 {
 
 
 /* チェック */
-.editor-styles-wrapper dl.is-style-check_list > dt.swell-block-dl__dt {
+.editor-styles-wrapper .swell-block-dl.is-style-check_list .swell-block-dl__dt {
 	position: relative;
 	padding-left: 1.5em;
 }
-.editor-styles-wrapper dl.is-style-check_list > dt.swell-block-dl__dt::before {
+.editor-styles-wrapper .swell-block-dl.is-style-check_list .swell-block-dl__dt::before {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -760,10 +760,10 @@ ul.has-border.-border04 {
 	font-family: icomoon;
 	content: '\e923';
 }
-.editor-styles-wrapper dl.is-style-check_list li {
+.editor-styles-wrapper .swell-block-dl.is-style-check_list  li {
 	padding-left: 0;
 }
-.editor-styles-wrapper dl.is-style-check_list li::before {
+.editor-styles-wrapper .swell-block-dl.is-style-check_list  li::before {
 	content: none !important;
 }
 

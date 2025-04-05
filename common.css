@@ -826,7 +826,7 @@ ul.has-border.-border04 {
 	margin-top: 0 !important;
 }
 
-/* 説明リストの連番 */
+/* 連番 */
 .swell-block-dl.sequential-numbering .swell-block-dl__dt {
 	position: relative;
 	padding-left: 30px;
@@ -866,6 +866,13 @@ dl.is-style-check_list > dt.swell-block-dl__dt::before {
 	font-family: icomoon;
 	content: '\e923';
 }
+dl.is-style-check_list li {
+	padding-left: 0;
+}
+dl.is-style-check_list li::before {
+	content: none !important;
+}
+
 
 
 /* フルワイド
