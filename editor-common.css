@@ -742,11 +742,11 @@ ul.has-border.-border04 {
 
 
 /* チェック */
-.editor-styles-wrapper .swell-block-dl.is-style-check_list .swell-block-dl__dt {
+.editor-styles-wrapper .swell-block-dl.is-style-check_list > dt {
 	position: relative;
 	padding-left: 1.5em;
 }
-.editor-styles-wrapper .swell-block-dl.is-style-check_list .swell-block-dl__dt::before {
+.editor-styles-wrapper .swell-block-dl.is-style-check_list > dt::before {
 	position: absolute;
 	top: 0;
 	left: 0;

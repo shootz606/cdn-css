@@ -852,11 +852,11 @@ ul.has-border.-border04 {
 
 
 /* チェック */
-.swell-block-dl.is-style-check_list .swell-block-dl__dt {
+.swell-block-dl.is-style-check_list > dt {
 	position: relative;
 	padding-left: 1.5em;
 }
-.swell-block-dl.is-style-check_list .swell-block-dl__dt::before {
+.swell-block-dl.is-style-check_list > dt::before {
 	position: absolute;
 	top: 0;
 	left: 0;
