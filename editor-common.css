@@ -803,6 +803,12 @@ ul.has-border.-border04 {
 	list-style: none !important;
 	padding-left: 0 !important;
 }
+.editor-styles-wrapper .link_blocks-link-list li {
+	margin-bottom: 1em !important;
+}
+.editor-styles-wrapper .link_blocks-link-list li:last-child {
+	margin-bottom: 0 !important;
+}
 .editor-styles-wrapper .link_blocks-link-list .swell-block-postLink {
 	margin: 0;
 }

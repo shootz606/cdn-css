@@ -960,11 +960,25 @@ dl.is-style-check_list li::before {
 	list-style: none;
 	padding-left: 0 !important;
 }
+.link_blocks-link-list li {
+	margin-bottom: 1em !important;
+}
+.link_blocks-link-list li:last-child {
+	margin-bottom: 0 !important;
+}
 .link_blocks-link-list .swell-block-postLink {
 	margin: 0;
 }
 .link_blocks-link-list .swell-block-postLink .c-blogLink {
 	font-size: 116% !important;
+}
+
+
+/* リンクブロック
+---------------------------------------------------------------------------------------------------*/
+
+.link_blocks-link-list .with-arrow{
+
 }
 
 
