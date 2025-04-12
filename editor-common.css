@@ -489,10 +489,13 @@ ul.has-border.-border04 {
 .purple.is-style-num_circle li:before{ background-color: #370035; box-shadow: 0 0 0 1px #370035; }
 
 
-/* ボーダー設定（チェックマーク） */
+
+/* チェック */
 .editor-styles-wrapper .has-border.-border04.is-style-check_list {
 	padding-left: 1.5em!important;
 }
+
+.green.is-style-check_list li:before { color: #414c42; }
 
 
 /* 「」 */

@@ -567,13 +567,17 @@ ul.has-border.-border04 {
 	margin: 0.7em 0;
 }
 
-.-border04.is-style-num_circle li:before{ background-color: #555; box-shadow: 0 0 0 1px #555; }
-.blue.is-style-num_circle li:before{ background-color: #0080c9; box-shadow: 0 0 0 1px #0080c9; }
-.green.is-style-num_circle li:before{ background-color: #66bb6a; box-shadow: 0 0 0 1px #66bb6a; }
-.red.is-style-num_circle li:before{ background-color: #f25757; box-shadow: 0 0 0 1px #f25757; }
-.pink.is-style-num_circle li:before{ background-color: #f7b2b2; box-shadow: 0 0 0 1px #f7b2b2; }
-.orange.is-style-num_circle li:before{ background-color: #f5955b; box-shadow: 0 0 0 1px #f5955b; }
-.purple.is-style-num_circle li:before{ background-color: #370035; box-shadow: 0 0 0 1px #370035; }
+.-border04.is-style-num_circle li:before { background-color: #555; box-shadow: 0 0 0 1px #555; }
+.blue.is-style-num_circle li:before { background-color: #0080c9; box-shadow: 0 0 0 1px #0080c9; }
+.green.is-style-num_circle li:before { background-color: #66bb6a; box-shadow: 0 0 0 1px #66bb6a; }
+.red.is-style-num_circle li:before { background-color: #f25757; box-shadow: 0 0 0 1px #f25757; }
+.pink.is-style-num_circle li:before { background-color: #f7b2b2; box-shadow: 0 0 0 1px #f7b2b2; }
+.orange.is-style-num_circle li:before { background-color: #f5955b; box-shadow: 0 0 0 1px #f5955b; }
+.purple.is-style-num_circle li:before { background-color: #370035; box-shadow: 0 0 0 1px #370035; }
+
+
+/* チェック */
+.green.is-style-check_list li:before { color: #414c42; }
 
 
 
