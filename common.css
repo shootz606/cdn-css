@@ -446,18 +446,6 @@ ul.has-border.-border01 {
 .has-border.-border04.orange { border-color: #f7be84; }
 .has-border.-border04.purple { border-color: #d7ccd7; }
 
-ol.has-border.-border04,
-ul.has-border.-border04 {
-	padding-left: 2.5em;
-}
-.has-border.-border04.is-style-index,
-.has-border.-border04.is-style-check_list{
-	padding-left: 1.5em;
-}
-.has-border.-border04.is-style-num_circle{
-	padding-left: 1em;
-}
-
 
 
 /* P
@@ -554,7 +542,14 @@ ul.has-border.-border04 {
 /* ボーダー4 */
 ol.has-border.-border04,
 ul.has-border.-border04 {
-	padding-left: inherit;
+	padding-left: 2.5em;
+}
+.has-border.-border04.is-style-index,
+.has-border.-border04.is-style-check_list{
+	padding-left: 1.5em;
+}
+.has-border.-border04.is-style-num_circle{
+	padding-left: 1em;
 }
 
 .has-border.-border04 li a{

@@ -412,22 +412,6 @@ ul.has-border.-border01 {
 .has-border.-border04.orange { border-color: #f7be84; }
 .has-border.-border04.purple { border-color: #d7ccd7; }
 
-ol.has-border.-border04,
-ul.has-border.-border04 {
-	padding-left: 2.5em;
-}
-.has-border.-border04.is-style-index,
-.has-border.-border04.is-style-check_list{
-	padding-left: 1.5em;
-}
-.has-border.-border04.is-style-num_circle {
-	padding-left: 1em;
-}
-
-.has-border.-border04 li a {
-	color: #333;
-}
-
 
 /* P
 ---------------------------------------------------------------------------------------------------*/
@@ -463,7 +447,14 @@ ul.has-border.-border04 {
 /* ボーダー4 */
 .editor-styles-wrapper ol.has-border.-border04,
 .editor-styles-wrapper ul.has-border.-border04 {
-	padding-left: inherit;
+	padding-left: 2.5em;
+}
+.has-border.-border04.is-style-index,
+.has-border.-border04.is-style-check_list{
+	padding-left: 1.5em;
+}
+.has-border.-border04.is-style-num_circle {
+	padding-left: 1em;
 }
 
 .editor-styles-wrapper .has-border.-border04 li a{
@@ -474,10 +465,6 @@ ul.has-border.-border04 {
 /* 丸数字 */
 .editor-styles-wrapper .is-style-num_circle li {
 	margin: 0.7em 0;
-}
-
-.editor-styles-wrapper .has-border.-border04.is-style-num_circle {
-	padding-left: 1.5em!important;
 }
 
 .-border04.is-style-num_circle li:before{ background-color: #555; box-shadow: 0 0 0 1px #555; }
