@@ -761,6 +761,11 @@ ul.has-border.-border04 {
 }
 
 
+/* P */
+.swell-block-accordion .swell-block-accordion__body p {
+	font-size: 94%;
+}
+
 /* UL/OL */
 .swell-block-accordion .swell-block-accordion__body .wp-block-list {
 	margin-top: 2em;

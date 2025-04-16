@@ -656,6 +656,11 @@ ul.has-border.-border01 {
 }
 
 
+/* P */
+.editor-styles-wrapper .swell-block-accordion .swell-block-accordion__body p {
+	font-size: 94%;
+}
+
 /* UL/OL */
 .editor-styles-wrapper .swell-block-accordion .swell-block-accordion__body .wp-block-list {
 	margin-top: 2em;
