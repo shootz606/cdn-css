@@ -765,6 +765,12 @@ ul.has-border.-border04 {
 .swell-block-accordion .swell-block-accordion__body p {
 	font-size: 94%;
 }
+@media print, screen and (max-width: 599px) {
+	.swell-block-accordion .swell-block-accordion__body p {
+		font-size: 90%;
+	}
+}
+
 
 /* UL/OL */
 .swell-block-accordion .swell-block-accordion__body .wp-block-list {
