@@ -995,6 +995,16 @@ dl.is-style-check_list li::before {
 }
 
 
+/* 画像 */
+.wp-block-group.area .wp-block-image{
+	margin-top: 0;
+}
+.wp-block-group.area .is-style-eyecatch-width img{
+	aspect-ratio: 16/9;
+	object-fit: cover;
+}
+
+
 /* リンクリスト
 ---------------------------------------------------------------------------------------------------*/
 

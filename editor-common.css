@@ -804,6 +804,29 @@ ul.has-border.-border01 {
 }
 
 
+/* 10選
+---------------------------------------------------------------------------------------------------*/
+
+.editor-styles-wrapper .wp-block-group.area .content p,
+.editor-styles-wrapper .wp-block-group.area .swell-block-accordion__body p{
+	font-size: 94%;
+}
+
+.editor-styles-wrapper .wp-block-group.area .content p::last-child,
+.editor-styles-wrapper .wp-block-group.area .swell-block-accordion__body p::last-child {
+	margin-bottom: 0;
+}
+
+/* 画像 */
+.editor-styles-wrapper .wp-block-group.area .wp-block-image{
+	margin-top: 0;
+}
+.editor-styles-wrapper .wp-block-group.area .is-style-eyecatch-width img{
+	aspect-ratio: 16/9;
+	object-fit: cover;
+}
+
+
 /* リンクリスト
 ---------------------------------------------------------------------------------------------------*/
 
