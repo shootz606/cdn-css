@@ -824,6 +824,7 @@ ul.has-border.-border01 {
 .editor-styles-wrapper .wp-block-group.area .is-style-eyecatch-width img{
 	aspect-ratio: 16/9;
 	object-fit: cover;
+	border-radius: 4px;
 }
 
 
