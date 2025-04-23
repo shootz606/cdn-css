@@ -851,6 +851,21 @@ ul.has-border.-border01 {
 }
 
 
+/* 関連記事
+---------------------------------------------------------------------------------------------------*/
+
+.editor-styles-wrapper .swell-block-postLink {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+/* アコーディオン内 */
+.editor-styles-wrapper .swell-block-accordion__body .swell-block-postLink {
+	margin-top: 2em;
+}
+
+
+
 /* 商品情報ブロック
 ---------------------------------------------------------------------------------------------------*/
 

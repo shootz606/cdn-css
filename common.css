@@ -1034,6 +1034,26 @@ dl.is-style-check_list li::before {
 }
 
 
+/* 関連記事
+---------------------------------------------------------------------------------------------------*/
+
+.post_content .swell-block-postLink {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.swell-block-postLink + .swell-block-postLink {
+	margin-top: -2em;
+}
+.p-blogCard__caption {
+	background: #fff;
+}
+
+/* アコーディオン内 */
+.post_content .swell-block-accordion__body .swell-block-postLink {
+	margin-top: 2em;
+}
+
+
 /* 商品情報ブロック
 ---------------------------------------------------------------------------------------------------*/
 
