@@ -695,9 +695,9 @@ ul.has-border.-border01 {
 	content: counter(accordion-counter) ". ";
 	counter-increment: accordion-counter;
 	position: absolute;
+	top: 1.25px;
 	left: 0;
-	top: 2px;
-	font-family: 'Josefin Sans',sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 17px;
 	font-weight: bold;
 }
