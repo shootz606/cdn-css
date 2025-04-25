@@ -968,9 +968,21 @@ ul.has-border.-border01 {
 /* 口コミブロック
 ---------------------------------------------------------------------------------------------------*/
 
+.swell-block-fullWide .wp-block-group .review-comment .wp-block-quote {
+	padding: 2em;
+	background: #fff;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.swell-block-fullWide .wp-block-group .review-comment .wp-block-quote::before {
+	content: '';
+}
+
 .good_review {
 	background-color: #fff6f2;
 }
+
+
 .bad_review {
 	background-color: #f0f9fc;
 }

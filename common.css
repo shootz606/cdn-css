@@ -1180,6 +1180,16 @@ dl.is-style-check_list li::before {
 /* 口コミブロック
 ---------------------------------------------------------------------------------------------------*/
 
+.swell-block-fullWide .wp-block-group .review-comment .wp-block-quote {
+	padding: 2em;
+	background: #fff;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.swell-block-fullWide .wp-block-group .review-comment .wp-block-quote::before {
+	content: '';
+}
+
 .good_review {
 	background-color: #fff6f2;
 }
