@@ -968,6 +968,9 @@ ul.has-border.-border01 {
 /* 口コミブロック
 ---------------------------------------------------------------------------------------------------*/
 
+.swell-block-fullWide .wp-block-group .review-comment {
+	margin-top: 2em;
+}
 .swell-block-fullWide .wp-block-group .review-comment .wp-block-quote {
 	padding: 2em;
 	background: #fff;
