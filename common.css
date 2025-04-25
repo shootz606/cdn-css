@@ -812,18 +812,18 @@ ul.has-border.-border04 {
 	line-height: 160%;
 }
 .swell-block-accordion.sequential-numbering .swell-block-accordion__item .swell-block-accordion__label::before {
-	content: counter(accordion-counter) ". ";
+	content: counter(accordion-counter) ".";
 	counter-increment: accordion-counter;
 	position: absolute;
+	top: 1.25px;
 	left: 0;
-	top: 2px;
-	font-family: 'Josefin Sans',sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 17px;
 	font-weight: bold;
 }
 @media print, screen and (max-width: 599px) {
 	.swell-block-accordion.sequential-numbering .swell-block-accordion__item .swell-block-accordion__label::before {
-		top: 3px;
+		top: 1px;
 	}
 }
 

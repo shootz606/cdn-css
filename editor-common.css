@@ -692,7 +692,7 @@ ul.has-border.-border01 {
 	line-height: 160%;
 }
 .editor-styles-wrapper .swell-block-accordion.sequential-numbering .swell-block-accordion__item .swell-block-accordion__label::before {
-	content: counter(accordion-counter) ". ";
+	content: counter(accordion-counter) ".";
 	counter-increment: accordion-counter;
 	position: absolute;
 	top: 1.25px;
