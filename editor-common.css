@@ -709,6 +709,7 @@ ul.has-border.-border01 {
 
 
 /* 背景色 */
+.editor-styles-wrapper .swell-block-accordion.white .swell-block-accordion__item,
 .editor-styles-wrapper .swell-block-accordion.white .swell-block-accordion__title {
 	background: #fff !important;
 }
