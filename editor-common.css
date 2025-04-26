@@ -412,6 +412,15 @@ ul.has-border.-border01 {
 .has-border.-border04.purple { border-color: #d7ccd7; }
 
 
+/* 縦文字 */
+.tate {
+	display: inline-block;
+	transform: rotate(90deg);
+	transform-origin: center center;
+	line-height: 1;
+}
+
+
 /* P
 ---------------------------------------------------------------------------------------------------*/
 
