@@ -763,9 +763,14 @@ ul.has-border.-border01 {
 	content: counter(accordion-counter) ". ";
 	counter-increment: accordion-counter;
 	position: absolute;
+	top: 1.25px;
 	left: 0;
-	top: 0;
-	font-family: 'Josefin Sans',sans-serif;
+	width: auto !important;
+	height: auto !important;
+	display: inline-block;
+	line-height: inherit;
+	vertical-align: middle;
+	font-family: Arial, sans-serif;
 	font-size: 17px;
 	font-weight: bold;
 }

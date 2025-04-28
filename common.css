@@ -896,15 +896,20 @@ ul.has-border.-border04 {
 	content: counter(accordion-counter) ". ";
 	counter-increment: accordion-counter;
 	position: absolute;
+	top: 1.25px;
 	left: 0;
-	top: 2px;
-	font-family: 'Josefin Sans',sans-serif;
+	width: auto !important;
+	height: auto !important;
+	display: inline-block;
+	line-height: inherit;
+	vertical-align: middle;
+	font-family: Arial, sans-serif;
 	font-size: 17px;
 	font-weight: bold;
 }
 @media print, screen and (max-width: 599px) {
 	.swell-block-dl.sequential-numbering .swell-block-dl__dt::before {
-		top: 3px;
+		top: 1px;
 	}
 }
 .swell-block-dl.green.sequential-numbering .swell-block-dl__dt::before {
