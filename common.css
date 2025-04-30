@@ -493,6 +493,7 @@ ul.has-border.-border01 {
 .post_content p.source{
 	color: #666;
 	font-size: 80%;
+	text-align: center;
 }
 .post_content p.source a{
 	color: #666;
