@@ -831,7 +831,7 @@ ul.has-border.-border01 {
 
 /* コンテンツ */
 .editor-styles-wrapper .wp-block-group.area .catchphrase {
-	margin-bottom: 2em;
+	margin-bottom: 1.5em !important;
 	font-weight: bold;
 }
 .editor-styles-wrapper .wp-block-group.area .content p,
