@@ -1004,7 +1004,7 @@ dl.is-style-check_list li::before {
 
 /* コンテンツ */
 .wp-block-group.area .catchphrase {
-	margin-bottom: 1.5em;
+	margin-bottom: 2em;
 	font-weight: bold;
 }
 .wp-block-group.area .content p,
