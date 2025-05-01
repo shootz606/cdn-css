@@ -1003,6 +1003,10 @@ dl.is-style-check_list li::before {
 ---------------------------------------------------------------------------------------------------*/
 
 /* コンテンツ */
+.wp-block-group.area .catchphrase {
+	margin-bottom: 1.5em;
+	font-weight: bold;
+}
 .wp-block-group.area .content p,
 .wp-block-group.area .swell-block-accordion__body p{
 	font-size: 94%;
@@ -1017,7 +1021,12 @@ dl.is-style-check_list li::before {
 .wp-block-group.area .swell-block-accordion__body p::last-child {
 	margin-bottom: 0;
 }
-
+.wp-block-group.area .summary p {
+	margin-bottom: 1em !important;
+}
+.wp-block-group.area .summary p::last-child {
+	margin-bottom: 0 !important;
+}
 
 /* 画像 */
 .wp-block-group.area .wp-block-image{

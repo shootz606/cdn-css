@@ -723,7 +723,7 @@ ul.has-border.-border01 {
 	background: #fff !important;
 }
 .swell-block-accordion.white .swell-block-accordion__body {
-	border-top: dashed 1px hsla(0, 0%, 78%, .15);
+	border-top: dashed 1px #ccc;
 }
 
 
@@ -829,6 +829,11 @@ ul.has-border.-border01 {
 /* 10選
 ---------------------------------------------------------------------------------------------------*/
 
+/* コンテンツ */
+.editor-styles-wrapper .wp-block-group.area .catchphrase {
+	margin-bottom: 1.5em;
+	font-weight: bold;
+}
 .editor-styles-wrapper .wp-block-group.area .content p,
 .editor-styles-wrapper .wp-block-group.area .swell-block-accordion__body p{
 	font-size: 94%;
@@ -837,6 +842,12 @@ ul.has-border.-border01 {
 .editor-styles-wrapper .wp-block-group.area .content p::last-child,
 .editor-styles-wrapper .wp-block-group.area .swell-block-accordion__body p::last-child {
 	margin-bottom: 0;
+}
+.editor-styles-wrapper .wp-block-group.area .summary p {
+	margin-bottom: 1em !important;
+}
+.editor-styles-wrapper .wp-block-group.area .summary p::last-child {
+	margin-bottom: 0 !important;
 }
 
 /* 画像 */
