@@ -848,6 +848,9 @@ ul.has-border.-border04 {
 .swell-block-accordion.white .swell-block-accordion__title {
 	background: #fff !important;
 }
+.swell-block-accordion.white .swell-block-accordion__title {
+	border-bottom: dashed 1px #555;
+}
 
 
 /* キャプションボックス
