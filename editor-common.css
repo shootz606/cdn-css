@@ -845,7 +845,7 @@ ul.has-border.-border01 {
 .editor-styles-wrapper .wp-block-group.area .summary p::last-child {
 	margin-bottom: 0 !important;
 }
-.editor-styles-wrapper .wp-block-group.area .summary p .catchphrase {
+.editor-styles-wrapper .wp-block-group.area .summary p.catchphrase {
 	margin-bottom: 1.5em !important;
 	font-weight: bold;
 }

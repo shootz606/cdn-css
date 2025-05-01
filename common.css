@@ -1023,7 +1023,7 @@ dl.is-style-check_list li::before {
 .wp-block-group.area .summary p::last-child {
 	margin-bottom: 0 !important;
 }
-.wp-block-group.area .summary p .catchphrase {
+.wp-block-group.area .summary p.catchphrase {
 	margin-bottom: 1.5em !important;
 	font-weight: bold;
 }
