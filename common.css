@@ -849,7 +849,7 @@ ul.has-border.-border04 {
 	background: #fff !important;
 }
 .swell-block-accordion.white .swell-block-accordion__body {
-	border-top: dashed 1px hsla(0, 0%, 78%, .15);
+	border-top: dashed 1px #ccc;
 }
 
 
