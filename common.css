@@ -438,6 +438,18 @@ ul.has-border.-border01 {
 	padding-left: 2em;
 }
 
+
+/* ボーダー2 */
+.has-border.-border02 {
+	padding-top: 4em;
+	padding-bottom: 4em;
+	padding-left: 0;
+	padding-right: 0;
+	border: 0;
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+}
+
 /* ボーダー4 */
 .has-border.-border04.blue { border-color: #e1effe; }
 .has-border.-border04.green { border-color: #c4e6c6; }
@@ -984,6 +996,9 @@ dl.is-style-check_list li::before {
 
 .swell-block-step__title + .swell-block-step__body {
 	margin-top: 2em;
+}
+.is-style-small .swell-block-step__title + .swell-block-step__body {
+	margin-top: 1em;
 }
 
 
