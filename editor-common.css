@@ -404,7 +404,7 @@ ul.has-border.-border01 {
 }
 
 /* ボーダー2 */
-.has-border.-border02 {
+:where(.editor-styles-wrapper) .has-border.-border02 {
 	margin-top: 4em;
 	margin-bottom: 4em;
 	padding-top: 4em;
