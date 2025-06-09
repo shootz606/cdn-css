@@ -168,12 +168,13 @@
 	border: none;
 	color: #fc5185;
 	font-size: 40px;
-	font-family: Arial, sans-serif;
+	font-family: 'Josefin Sans',sans-serif;
 	counter-increment: section;
 	content: counter(section, decimal-leading-zero) !important;
 }
 h2.is-style-heading-count::before {
 	font-size: 3.5em;
+	font-family: Arial, sans-serif;
 }
 .editor-styles-wrapper .wp-block.is-style-heading-step.is-style-heading-step::after {
 	position: absolute;
