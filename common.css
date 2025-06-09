@@ -43,6 +43,8 @@ h2.is-style-heading-count {
 	width: 100% !important;
 	margin-left: 0 !important;
 	background: none !important;
+	border: none !important;
+	color: #2a2524 !important;
 }
 h4.is-style-heading-count {
 	border-left: 0 !important;
