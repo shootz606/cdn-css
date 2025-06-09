@@ -48,8 +48,6 @@
 .editor-styles-wrapper h2.is-style-heading-count.is-style-heading-count {
 	width: 100% !important;
 	background: none !important;
-	border: none !important;
-	color: #2a2524 !important;
 }
 .editor-styles-wrapper h4.is-style-heading-count.is-style-heading-count {
 	border-left: 0 !important;
@@ -157,6 +155,8 @@
 .editor-styles-wrapper h2.is-style-heading-step {
 	width: 100% !important;
 	margin-left: 0 !important;
+	border: none !important;
+	color: #2a2524 !important;
 }
 .editor-styles-wrapper .wp-block.is-style-heading-step.is-style-heading-step::before {
 	position: static !important;
