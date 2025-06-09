@@ -109,7 +109,7 @@ h2.is-style-heading-count::before {
 }
 
 
-/* カウント2 */
+/* カウント2（旧） */
 .post_content .is-style-heading-num.is-style-heading-num {
 	position: relative;
 	margin-top: 4em;
@@ -159,6 +159,46 @@ h2.is-style-heading-count::before {
 	counter-reset: cntnum;
 }
 
+
+/* カウント2 */
+.post_content .is-style-heading-number.is-style-heading-number {
+	margin-top: 6em;
+	margin-bottom: 3em;
+	background: none;
+	border: 0;
+	color: #2a2524;
+	font-size: 1.4em;
+}
+.post_content .is-style-heading-number.is-style-heading-number::before {
+	position: absolute;
+	top: -20px;
+	bottom: auto;
+	left: 20px;
+	width: auto;
+	height: auto;
+	transform: translateY(-50%);
+	background: none;
+	border: 0;
+	color: #c5ecef;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Josefin Sans',sans-serif;
+	counter-increment: number;
+	content: counter(number, decimal-leading-zero);
+}
+.post_content .is-style-heading-number.is-style-heading-number::after {
+	position: absolute;
+	top: 0;
+	bottom: auto;
+	left: 20px;
+	width: 100px;
+	height: 1px;
+	background-color: rgba(63,193,201,1);
+	content: '';
+}
+.heading-number-reset{
+	counter-reset: number;
+}
 
 /* カウント3 */
 .post_content .is-style-heading-step.is-style-heading-step {

@@ -101,7 +101,7 @@
 }
 
 
-/* カウント2 */
+/* カウント2（旧） */
 .editor-styles-wrapper .is-style-heading-num.is-style-heading-num {
 	position: relative;
 	margin-top: 4em;
@@ -138,6 +138,46 @@
 
 .heading-num-reset{
 	counter-reset: cntnum;
+}
+
+
+/* カウント2 */
+.editor-styles-wrapper .wp-block.is-style-heading-number.is-style-heading-number {
+	margin-top: 6em;
+	margin-bottom: 3em;
+	background: none;
+	border: 0;
+	color: #2a2524;
+	font-size: 1.4em;
+}
+.editor-styles-wrapper .wp-block.is-style-heading-number.is-style-heading-number::before {
+	position: absolute !important;
+	top: -20px !important;
+	bottom: auto !important;
+	left: 20px !important;
+	width: auto !important;
+	height: auto !important;
+	transform: translateY(-50%);
+	background: none !important;
+	border: 0 !important;
+	color: #c5ecef;
+	font-size: 50px;
+	font-family: 'Josefin Sans',sans-serif;
+	counter-increment: number;
+	content: counter(number, decimal-leading-zero) !important;
+}
+.editor-styles-wrapper .wp-block.is-style-heading-number.is-style-heading-number::after {
+	position: absolute;
+	top: 0;
+	bottom: auto;
+	left: 20px;
+	width: 100px;
+	height: 1px;
+	background-color: rgba(63,193,201,1);
+	content: '';
+}
+.editor-styles-wrapper .heading-number-reset{
+	counter-reset: number;
 }
 
 
