@@ -59,10 +59,13 @@ h4.is-style-heading-count {
 	background: none;
 	border: 0;
 	font-size: 3em;
-	font-family: 'Josefin Sans',sans-serif;
+	font-family: Arial, sans-serif;
 	font-weight: bold;
 	color: #3e3e3e;
 	line-height: 1;
+}
+h2.is-style-heading-count::before {
+	font-size: 3.5em;
 }
 @media print, screen and (max-width: 599px) {
 	.post_content .is-style-heading-count.is-style-heading-count::before {
