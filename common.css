@@ -65,8 +65,8 @@ h4.is-style-heading-count {
 	line-height: 1;
 }
 h2.is-style-heading-count::before {
-	font-size: 3.5em;
-	font-family: Arial, sans-serif;
+	font-size: 3.5em !important;
+	font-family: Arial, sans-serif !important;
 }
 @media print, screen and (max-width: 599px) {
 	.post_content .is-style-heading-count.is-style-heading-count::before {
@@ -74,7 +74,7 @@ h2.is-style-heading-count::before {
 		font-size: 2.6em;
 	}
 	h2.is-style-heading-count::before {
-		font-size: 3em;
+		font-size: 3em !important;
 	}
 }
 .post_content .is-style-heading-count.is-style-heading-count:after {
