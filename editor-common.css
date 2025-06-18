@@ -155,7 +155,7 @@
 	position: absolute !important;
 	top: -20px !important;
 	bottom: auto !important;
-	left: 20px !important;
+	left: 0 !important;
 	width: auto !important;
 	height: auto !important;
 	transform: translateY(-50%);
@@ -171,11 +171,17 @@
 	position: absolute;
 	top: 0;
 	bottom: auto;
-	left: 20px;
+	left: 0;
 	width: 100px;
 	height: 1px;
 	background-color: rgba(63,193,201,1);
 	content: '';
+}
+.editor-styles-wrapper h2.wp-block.is-style-heading-number::before {
+	left: 20px !important;
+}
+.editor-styles-wrapper h2.wp-block.is-style-heading-number::after {
+	left: 20px;
 }
 .editor-styles-wrapper .heading-number-reset{
 	counter-reset: number;
