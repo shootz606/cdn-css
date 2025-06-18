@@ -169,10 +169,11 @@ h2.is-style-heading-count::before {
 	border: 0;
 	color: #2a2524;
 	font-size: 1.4em;
+	line-height: 1.6;
 }
 .post_content .is-style-heading-number.is-style-heading-number::before {
 	position: absolute;
-	top: -20px;
+	top: -25px;
 	bottom: auto;
 	left: 0;
 	width: auto;
@@ -189,7 +190,7 @@ h2.is-style-heading-count::before {
 }
 .post_content .is-style-heading-number.is-style-heading-number::after {
 	position: absolute;
-	top: 0;
+	top: -5px;
 	bottom: auto;
 	left: 0;
 	width: 100px;
