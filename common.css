@@ -162,6 +162,7 @@ h2.is-style-heading-count::before {
 
 /* カウント2 */
 .post_content .is-style-heading-number.is-style-heading-number {
+	position: relative;
 	margin-top: 6em;
 	margin-bottom: 3em;
 	background: none;

@@ -143,6 +143,7 @@
 
 /* カウント2 */
 .editor-styles-wrapper .wp-block.is-style-heading-number.is-style-heading-number {
+	position: relative;
 	margin-top: 6em;
 	margin-bottom: 3em;
 	background: none;
