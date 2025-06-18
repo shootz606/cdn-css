@@ -174,7 +174,7 @@ h2.is-style-heading-count::before {
 	position: absolute;
 	top: -20px;
 	bottom: auto;
-	left: 20px;
+	left: 0;
 	width: auto;
 	height: auto;
 	transform: translateY(-50%);
@@ -191,11 +191,17 @@ h2.is-style-heading-count::before {
 	position: absolute;
 	top: 0;
 	bottom: auto;
-	left: 20px;
+	left: 0;
 	width: 100px;
 	height: 1px;
 	background-color: rgba(63,193,201,1);
 	content: '';
+}
+.post_content h2.is-style-heading-number::before {
+	left: 20px;
+}
+.post_content h2.is-style-heading-number::after {
+	left: 20px;
 }
 .heading-number-reset{
 	counter-reset: number;
