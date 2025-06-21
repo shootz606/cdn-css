@@ -165,6 +165,7 @@ h2.is-style-heading-count::before {
 	position: relative;
 	margin-top: 6em;
 	margin-bottom: 3em;
+	padding-top: 0.5em;
 	padding-left: 0;
 	background: none;
 	border: 0;
