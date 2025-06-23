@@ -563,6 +563,25 @@ ul.has-border.-border01 {
 .green.is-style-check_list li:before { color: #414c42; }
 
 
+/* arrow */
+.is-style-arrow {
+	padding-left: .25em !important;
+	list-style: none !important;
+}
+.is-style-arrow li {
+	position: relative;
+	padding-left: 1.5em;
+}
+.is-style-arrow li:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1em;
+	height: auto;
+	content: "→";
+}
+
+
 /* 「」 */
 .editor-styles-wrapper .list-quote {
 	list-style: none;
