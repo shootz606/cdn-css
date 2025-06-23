@@ -674,7 +674,42 @@ ul.has-border.-border04 {
 	left: 0;
 	width: 1em;
 	height: auto;
-	content: "→";
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	content: "\f061";
+}
+
+
+/* Link アイコン */
+.is-style-link1 {
+	padding-left: .25em !important;
+	list-style: none !important;
+}
+.is-style-link1 li {
+	position: relative;
+	padding-left: 2.25em;
+	margin-bottom: 1.5em!important;
+}
+.is-style-link1 li:last-child {
+	margin-bottom: 0 !imporatnt;
+}
+.is-style-link1 li:before {
+	position: absolute;
+	display: inline-block;
+	top: 50%;;
+	left: 0;
+	transform: translateY(-50%);
+	width: 1.7em;
+	height: 1.7em;
+	background-color: #478df7;
+	-webkit-mask-image: url('https://murasawa.sakura.ne.jp/wp-content/uploads/2025/06/19462688e6e585058116c6274291346c.svg');
+	mask-image: url('https://murasawa.sakura.ne.jp/wp-content/uploads/2025/06/19462688e6e585058116c6274291346c.svg');
+	-webkit-mask-size: contain;
+	mask-size: contain;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	vertical-align: middle;
+	content: "";
 }
 
 
