@@ -204,7 +204,6 @@
 }
 .editor-styles-wrapper h2.is-style-heading-step {
 	width: 100% !important;
-	margin-left: 0 !important;
 	border: none !important;
 	color: #2a2524 !important;
 }
@@ -253,7 +252,6 @@ h2.is-style-heading-count::before {
 }
 .editor-styles-wrapper h2.is-style-heading-sequence {
 	width: 100% !important;
-	margin-left: 0 !important;
 	border: none !important;
 	color: #2a2524 !important;
 }
