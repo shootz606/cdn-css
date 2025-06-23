@@ -319,6 +319,7 @@ h2.is-style-heading-sequence:before {
 	margin-bottom: 3em!important;
 	padding: .5em .7em;
 	overflow: hidden;
+	background: none;
 	border: 2px solid #102e24;
 	border-radius: 5px;
 	color: #333333;
