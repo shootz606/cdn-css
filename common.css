@@ -263,6 +263,7 @@ h2.is-style-heading-step {
 	padding: 0 0 0 70px;
 	background: none;
 	border: 0;
+	color: #2a2524 !important;
 	font-size: 18px;
 }
 @media print, screen and (max-width: 599px) {

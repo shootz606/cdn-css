@@ -248,6 +248,7 @@ h2.is-style-heading-count::before {
 	padding: 0 0 0 70px;
 	background: none;
 	border: 0;
+	color: #2a2524 !important;
 	font-size: 20px;
 }
 .editor-styles-wrapper .wp-block.is-style-heading-sequence.is-style-heading-sequence::before {
