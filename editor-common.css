@@ -247,9 +247,15 @@ h2.is-style-heading-count::before {
 	margin-bottom: 3em;
 	padding: 0 0 0 70px;
 	background: none;
-	border: 0;
+	border: 0 !important;
 	color: #2a2524 !important;
 	font-size: 20px;
+}
+.editor-styles-wrapper h2.is-style-heading-sequence {
+	width: 100% !important;
+	margin-left: 0 !important;
+	border: none !important;
+	color: #2a2524 !important;
 }
 .editor-styles-wrapper .wp-block.is-style-heading-sequence.is-style-heading-sequence::before {
 	position: absolute !important;
