@@ -272,6 +272,9 @@ h2.is-style-heading-sequence {
 	border: none !important;
 	color: #2a2524 !important;
 }
+h2.is-style-heading-sequence:before {
+	border: 0 !important;
+}
 @media print, screen and (max-width: 599px) {
 	.post_content .is-style-heading-sequence.is-style-heading-sequence {
 		padding: 0 0 5px 80px;
