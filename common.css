@@ -691,6 +691,27 @@ ul.has-border.-border04 {
 }
 
 
+/* チェックボックス */
+.is-style-square {
+	padding-left: .25em !important;
+	list-style: none !important;
+}
+.is-style-square li {
+	position: relative;
+	padding-left: 1.5em;
+}
+.is-style-square li:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1em;
+	height: auto;
+	font-family: "Font Awesome 6 Free";
+	font-weight: 400;
+	content: "\f45c";
+}
+
+
 /* Link アイコン */
 .is-style-link1 {
 	padding-left: .25em !important;
