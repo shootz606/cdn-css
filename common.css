@@ -209,6 +209,13 @@ h2.is-style-heading-count::before {
 .heading-number-reset{
 	counter-reset: number;
 }
+@media print, screen and (max-width: 599px) {
+	.post_content h2.is-style-heading-number{
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
 
 /* カウント3 */
 .post_content .is-style-heading-step.is-style-heading-step {
