@@ -182,7 +182,6 @@
 }
 .editor-styles-wrapper  h2.is-style-heading-number{
 	width: 100%;
-	margin-left: 0;
 }
 .editor-styles-wrapper h2.wp-block.is-style-heading-number::before {
 	left: 20px !important;
