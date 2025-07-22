@@ -531,6 +531,11 @@ ul.has-border.-border01 {
 /* OL/UL
 ---------------------------------------------------------------------------------------------------*/
 
+.editor-styles-wrapper ol li,
+.editor-styles-wrapper ul li{
+	font-size: 98%;
+}
+
 /* ボーダー4 */
 .editor-styles-wrapper ol.has-border.-border04,
 .editor-styles-wrapper ul.has-border.-border04 {

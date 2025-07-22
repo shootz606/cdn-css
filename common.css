@@ -607,12 +607,12 @@ ul.has-border.-border01 {
 
 .post_content ol li,
 .post_content ul li{
-	font-size: 94%;
+	font-size: 98%;
 }
 @media print, screen and (max-width: 599px) {
 	.post_content ol li,
 	.post_content ul li{
-		font-size: 90%;
+		font-size: 94%;
 	}
 }
 
