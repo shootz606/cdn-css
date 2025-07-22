@@ -1042,6 +1042,13 @@ ul.has-border.-border01 {
 }
 
 
+/* list */
+.link_blocks-link-list.has-list-style {
+	list-style: disc;
+	padding-left: 1.5em !important;
+}
+
+
 /* 投稿リスト
 ---------------------------------------------------------------------------------------------------*/
 
