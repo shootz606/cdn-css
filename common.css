@@ -1039,6 +1039,13 @@ ul.has-border.-border04 {
 	padding-top: 0.5em;
 }
 
+@media print, screen and (max-width: 599px) {
+	.swell-block-capbox .wp-block-list li {
+		font-size: 90%;
+	}
+}
+
+
 
 
 /* 説明リスト（DL）
