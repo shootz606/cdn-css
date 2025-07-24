@@ -1113,6 +1113,10 @@ dl.is-style-check_list li::before {
 	content: none !important;
 }
 
+/* dd直下が画像の場合 */
+.swell-block-dl__dd > .wp-block-image:first-child {
+	margin-top: 0 !important;
+}
 
 
 /* フルワイド

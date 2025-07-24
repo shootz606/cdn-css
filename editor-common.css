@@ -955,6 +955,13 @@ ul.has-border.-border01 {
 }
 
 
+/* dd直下が画像の場合 */
+.swell-block-dl__dd > .wp-block-image:first-child {
+	margin-top: 0 !important;
+}
+
+
+
 /* FAQ
 ---------------------------------------------------------------------------------------------------*/
 
