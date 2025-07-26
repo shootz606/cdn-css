@@ -1049,6 +1049,24 @@ ul.has-border.-border01 {
 }
 
 
+/* arrow */
+.link_blocks-link-list .with-arrow {
+	position: relative;
+	padding-left: 1.5em;
+}
+.link_blocks-link-list .with-arrow::before {
+	position: absolute;
+	top: 0.1em;
+	left: 0;
+	width: 1em;
+	height: auto;
+	color: #3b86f7;
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	content: "\f0a9";
+}
+
+
 /* list */
 .link_blocks-link-list.has-list-style {
 	list-style: disc !important;
