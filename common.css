@@ -1024,6 +1024,9 @@ ul.has-border.-border04 {
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
+.is-style-onborder_ttl {
+	margin-top: 3em!important;
+}
 .swell-block-capbox.is-style-inner {
 	margin-top: 3.5em;
 }
