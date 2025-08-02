@@ -672,6 +672,13 @@ ul.has-border.-border01 {
 }
 
 
+/* 上下ボーダー */
+.tb-border {
+	border-top: 1px solid rgba(0,0,0,.1);
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+
 /* 特徴リストブロック */
 .editor-styles-wrapper .features-list li:last-child {
 	margin-bottom: 0.25em !important;
@@ -889,7 +896,8 @@ ul.has-border.-border01 {
 	margin-bottom: 3em;
 }
 .is-style-onborder_ttl {
-	margin-top: 3em!important;
+	margin-top: 3em !important;
+	margin-bottom: 3.5em !important;
 }
 .swell-block-capbox.is-style-inner {
 	margin-top: 3.5em;

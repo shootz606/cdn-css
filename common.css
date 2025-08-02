@@ -769,6 +769,13 @@ ul.has-border.-border04 {
 }
 
 
+/* 上下ボーダー */
+.tb-border {
+	border-top: 1px solid rgba(0,0,0,.1);
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+
 /* 特徴リストブロック */
 .features-list li:last-child {
 	margin-bottom: 0.25em !important;
