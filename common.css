@@ -376,6 +376,50 @@ h2.is-style-heading-sequence:before {
 }
 
 
+/* カウント7 */
+.post_content .is-style-heading-bg.is-style-heading-bg {
+	position: relative;
+	margin: 8em 0 5em;
+	padding: 0 0 0 6em;
+	background: none !important;
+	border: 0 !important;
+}
+.post_content .is-style-heading-bg.is-style-heading-bg::before {
+	position: absolute;
+	top: 50%;
+	bottom: auto;
+	left: 0;
+	transform: translateY(-50%);
+	width: fit-content;
+	height: auto;
+	margin-inline: auto;
+	background: none;
+	border-radius: 0;
+	color: #333;
+	font-size: 64px;
+	font-weight: 400;
+	font-family: 'Noto Serif JP', serif;
+	font-style: italic;
+	line-height: 1;
+	text-align: center; 
+	counter-increment: bg;
+	content: counter(bg, decimal-leading-zero);
+}
+.post_content .is-style-heading-bg.is-style-heading-bg::after {
+	position: absolute;
+	top: -3em;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 40%;
+	height: 1em;
+	border-top: solid 1px #666 !important;
+	content: '';
+}
+.heading-bg-reset{
+	counter-reset: bg;
+}
+
+
 /* 横線 */
 .post_content .is-style-heading-hr.is-style-heading-hr {
 	display: flex;
