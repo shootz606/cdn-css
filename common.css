@@ -420,6 +420,51 @@ h2.is-style-heading-sequence:before {
 }
 
 
+/* カウント8 */
+.post_content .is-style-heading-numc.is-style-heading-numc {
+	position: relative;
+	margin: 5em 0 3em;
+	padding: 0;
+	background: none;
+	border: 0;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+}
+.post_content .is-style-heading-numc.is-style-heading-numc::before {
+	position: static;
+	display: block;
+	width: auto;
+	height: auto;
+	margin-bottom: 0.75em;
+	background: none;
+	border: none;
+	color: #333;
+	font-size: 64px;
+	font-weight: 400;
+	font-family: 'Noto Serif JP', serif;
+	font-style: italic;
+	line-height: 1;
+	text-align: center; 
+	counter-increment: numc;
+	content: counter(numc, decimal-leading-zero);
+}
+.post_content .is-style-heading-numc.is-style-heading-numc::after {
+	position: absolute;
+	top: 70px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 20px;
+	height: 1px;
+	background-color: #333;
+	content: '';
+}
+.heading-numc-reset{
+	counter-reset: numc;
+}
+
+
+
 /* 横線 */
 .post_content .is-style-heading-hr.is-style-heading-hr {
 	display: flex;
