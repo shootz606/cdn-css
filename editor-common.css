@@ -421,6 +421,40 @@ h2.is-style-heading-count::before {
 }
 
 
+/* カウント8 */
+.editor-styles-wrapper .is-style-heading-check.is-style-heading-check {
+	margin-top: 6em;
+	margin-bottom: 3em;
+	padding: 0;
+}
+.editor-styles-wrapper .is-style-heading-check.is-style-heading-check::before {
+	position: absolute;
+	top: -2em;
+	left: 30px !important;
+	width: fit-content !important;
+	height: auto !important;
+	background: none !important;
+	font-size: 90%;
+	font-family: 'Noto Serif JP', serif;
+	font-style: italic;
+	line-height: 1;
+	counter-increment: check;
+	content: "Check " counter(check, decimal-leading-zero) !important;
+}
+.editor-styles-wrapper .is-style-heading-check.is-style-heading-check::after {
+	position: absolute;
+	top: -1.4em;
+	left: 0;
+	width: 20px;
+	height: 1px;
+	background: #333;
+	content: '';
+}
+.editor-styles-wrapper .heading-check-reset{
+	counter-reset: check;
+}
+
+
 /* 横線 */
 .editor-styles-wrapper .is-style-heading-hr.is-style-heading-hr {
 	display: flex;
