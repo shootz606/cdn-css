@@ -464,6 +464,39 @@ h2.is-style-heading-sequence:before {
 }
 
 
+/* カウント9 */
+.post_content .is-style-heading-check.is-style-heading-check {
+	margin-top: 6em;
+	margin-bottom: 3em;
+	padding: 0;
+}
+.post_content .is-style-heading-check.is-style-heading-check::before {
+	position: absolute;
+	top: -2em;
+	left: 30px;
+	width: fit-content;
+	height: auto;
+	background: none;
+	font-size: 90%;
+	font-family: 'Noto Serif JP', serif;
+	font-style: italic;
+	line-height: 1;
+	counter-increment: check;
+	content: "Check " counter(check, decimal-leading-zero);
+}
+.post_content .is-style-heading-check.is-style-heading-check::after {
+	position: absolute;
+	top: -1.4em;
+	left: 0;
+	width: 20px;
+	height: 1px;
+	background: #333;
+	content: '';
+}
+.heading-check-reset{
+	counter-reset: check;
+}
+
 
 /* 横線 */
 .post_content .is-style-heading-hr.is-style-heading-hr {
